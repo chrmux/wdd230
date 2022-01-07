@@ -24,8 +24,8 @@ h1{
 	font-size: 18px;
 }
 main{	
-	justify-content: center;
-	align-items: center;
+	padding-left: 5em;
+	padding-right: 5em;
 }
 img {
 	border: 1px solid #ddd;
