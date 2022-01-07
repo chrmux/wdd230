@@ -18,6 +18,11 @@ h1{
 	top: 4em;
 	position: absolute;
 }
+h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .date{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: greenyellow;
