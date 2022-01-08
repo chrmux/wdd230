@@ -5,4 +5,4 @@ yearDisplay.textContent = (todayYear+"  .:|:. Jerry N. Marollano .:|:. Philippin
 
 const modDateDisplay = document.querySelector('footer p');
 let modDate = document.lastModified;
-modDateDisplay.textContent = ("Last Updated "+modDate);
+modDateDisplay.textContent = ("Last Modified "+modDate);
