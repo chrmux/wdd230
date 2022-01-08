@@ -32,6 +32,11 @@ img {
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 }
+main p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
 h3 p{
 	display: flex;
 	justify-content: center;
