@@ -60,17 +60,5 @@ hr{
 	color: greenyellow;
 	font-size: 18px;
 }
-@media screen{
-	header{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding-left: 0;
-	}
-	h1{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-}
+
 
