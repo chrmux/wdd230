@@ -6,6 +6,9 @@ body{
 	margin: auto;
 }
 header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 2em;
     background: #000;
 	border-radius: 10px;
@@ -45,6 +48,9 @@ hr{
     border-bottom: 1px solid #888;
 }
 .footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 1em;
 	background: #000;
 	border-radius: 10px;
