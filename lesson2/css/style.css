@@ -2,7 +2,10 @@ body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
-/* phone or baseline views **************************/
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 main {
 	max-width: 767px;
 	margin: 0 auto;
