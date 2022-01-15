@@ -10,7 +10,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	padding: 2em;
-    background: #000;
+    	background: #000;
 	border-radius: 10px;
 	color: #fff;
 }
@@ -44,8 +44,8 @@ a p{
 }
 hr{
 	height: 1px;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #888;
+    	border-top: 1px solid #000;
+    	border-bottom: 1px solid #888;
 }
 .footer{
 	display: flex;

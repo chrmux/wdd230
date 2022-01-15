@@ -5,4 +5,4 @@ yearDisplay.textContent = (todayYear +"  There are " + daycount + " days until "
 
 const modDateDisplay = document.querySelector('footer > p');
 let modDate = document.lastModified;
-modDateDisplay.textContent = ("Last Updated "+modDate);
+modDateDisplay.textContent = ("Last Modified "+modDate);
