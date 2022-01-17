@@ -3,6 +3,13 @@ body {
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
 
+header p{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 main {
 	max-width: 767px;
 	margin: 0 auto;
