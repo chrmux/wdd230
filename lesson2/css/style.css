@@ -1,19 +1,6 @@
 body {
-	padding: 5px 25px;
 	font-size: 16px;
-	color: #444;
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-header{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 2em;
-    	background: #000;
-	border-radius: 10px;
-	color: #fff;
+	font-family: "Verdana", sans-serif;
 }
 
 header h1 {
@@ -26,10 +13,9 @@ header p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 0.87em;
+	font-size: 1em;
 	font-family: "Verdana", sans-serif;
 }
-
 main {
 	max-width: 767px;
 	margin: 0 auto;
@@ -39,9 +25,9 @@ main {
 }
 
 main section h1 {
-    	margin: 0;
+    margin: 0;
 	color: #fff;
-    	background: #3a3b3c;
+    background: #3a3b3c;
 }
 
 main section h2 {
@@ -51,36 +37,18 @@ main section h2 {
 main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
-    	border-radius: 5px;
-    	padding: 0.67em;
+    border-radius: 5px;
+    padding: 0.67em;
 	background-color: #eee;
 }
 main section img{
-    	height: 480px;
-    	margin-top: 5px;
+    height: 480px;
+    margin-top: 5px;
 }
 
 main section:nth-child(2) {
 	display: none;
 	margin: 0.5rem;
-}
-
-.footer{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	padding: 1em;
-	background: #000;
-	border-radius: 10px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color: #fff;
-}
-.footer > p {
-	font-family: Verdana, sans-serif;
-	color: greenyellow;
-	font-size: 18px;
 }
 
 /* small Views ******************************/
@@ -140,3 +108,4 @@ main section:nth-child(2) {
 		grid-column: span 1;
 	}
 }
+
