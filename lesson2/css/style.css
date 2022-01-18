@@ -84,7 +84,7 @@ main section:nth-child(2) {
 }
 
 /* small Views ******************************/
-@media only screen and (min-width: 22.5em) {
+@media only screen and (min-width: 25.75em) {
 	main {
 		grid-template-columns: 1fr;
 	}
