@@ -1,6 +1,10 @@
 body {
 	font-size: 16px;
 	font-family: "Verdana", sans-serif;
+	padding: 5px 25px;;
+	color: #444;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 header{
