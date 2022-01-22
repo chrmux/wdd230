@@ -1,0 +1,155 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #F0CF65;
+  --secondary-color: #28AFB0;
+  --accent1-color: #fff;
+  --accent2-color: ;
+
+  --heading-font: "Poppins", sans-serif;
+  --paragraph-font: Helvetica, sans-serif;
+
+  
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #28AFB0;
+  --nav-link-color: black;
+  --nav-background-color: #effff3;
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: #F0CF65;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--accent1-color);
+}
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+.logo {
+  margin: 0;
+  width: 114px;
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+header {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(---color-on-color);
+  background-color: var(--paragraph-background-color);
+  border-radius: 10px;
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+main {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+nav {
+  line-height: 2.398em;
+  text-align: center;
+  font-size: 1.58em;
+  border-radius: 10px;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0.5em;
+  padding:0.57em;
+  min-width: 70px;
+  color: white;
+  
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+  margin: 0;
+	padding: 0;
+	background: #28AFB0;
+	border-radius: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+footer > p > span {
+  margin-left: 2.5em;
+}
+
+.social_icons > a {
+  margin: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.social_icons > span {
+  margin-left: 3em;
+  width: 40px;
+}
