@@ -3,7 +3,7 @@
   --primary-color: #F0CF65;
   --secondary-color: #28AFB0;
   --accent1-color: #fff;
-  --accent2-color: ;
+  --accent2-color: #e2ddbf;
 
   --heading-font: "Poppins", sans-serif;
   --paragraph-font: Helvetica, sans-serif;
@@ -139,7 +139,7 @@ nav a:hover {
 
 .table > div {
   margin: 2px;
-  background: gray;
+  background: #e2ddbf;
   padding: 5px;
 }
 
