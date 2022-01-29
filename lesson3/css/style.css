@@ -131,6 +131,18 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
+.table {
+  display: grid;
+  grid-template-columns: 1fr 80%; 
+  max-width: 480px;
+}
+
+.table > div {
+margin: 2px;
+background: powderblue;
+padding: 5px;
+}
+
 footer{
 	display: flex;
 	justify-content: space-between;
