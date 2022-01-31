@@ -30,18 +30,55 @@ const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 
 document.getElementById("currentdate").textContent = fulldate;
 
-const date2 = document.querySelector('currentdate2');
+const date2 = document.querySelector("currentdate2");
 
 
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
+/* navbar */
 
+const toggle = document.querySelector(".toggle");
+const menu = document.querySelector(".menu");
+const items = document.querySelectorAll(".item");
 
-const barbutton = document.querySelector('.bar');
-const mainnav = document.querySelector('.navigation')
+/* Toggle mobile menu */
+function toggleMenu() {
+  if (menu.classList.contains("active")) {
+    menu.classList.remove("active");
+    toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
+  } else {
+    menu.classList.add("active");
+    toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
+  }
+}
 
-barbutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+/* Activate Submenu */
+function toggleItem() {
+  if (this.classList.contains("submenu-active")) {
+    this.classList.remove("submenu-active");
+  } else if (menu.querySelector(".submenu-active")) {
+    menu.querySelector(".submenu-active").classList.remove("submenu-active");
+    this.classList.add("submenu-active");
+  } else {
+    this.classList.add("submenu-active");
+  }
+}
 
-// To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+/* Close Submenu From Anywhere */
+function closeSubmenu(e) {
+  let isClickInside = menu.contains(e.target);
+
+  if (!isClickInside && menu.querySelector(".submenu-active")) {
+    menu.querySelector(".submenu-active").classList.remove("submenu-active");
+  }
+}
+/* Event Listeners */
+toggle.addEventListener("click", toggleMenu, false);
+for (let item of items) {
+  if (item.querySelector(".submenu")) {
+    item.addEventListener("click", toggleItem, false);
+  }
+  item.addEventListener("keypress", toggleItem, false);
+}
+document.addEventListener("click", closeSubmenu, false);
+
+/* modified*/
+document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
