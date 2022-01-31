@@ -187,9 +187,7 @@ footer {
 }
 
 footer p {
-	width: 95%;
 	margin: auto;
-	padding: 30px 10px;
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
