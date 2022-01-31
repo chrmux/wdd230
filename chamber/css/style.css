@@ -17,10 +17,6 @@ nav img {
 	margin: 0 2em 0;
 }
 
-nav .menu a:hover {
-	color: #F0CF65;
-}
-
 body {
 	max-width: 960px;
 	margin: 0 auto;
@@ -65,7 +61,7 @@ a {
 
 .item:not(.button) a:hover,
 .item a:hover::after {
-	color: #ccc;
+	color: #F0CF65;
 }
 
 /* Mobile menu */
