@@ -43,10 +43,10 @@ const items = document.querySelectorAll(".item");
 function toggleMenu() {
   if (menu.classList.contains("active")) {
     menu.classList.remove("active");
-    toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
+    toggle.querySelector("a").innerHTML = "";
   } else {
     menu.classList.add("active");
-    toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
+    toggle.querySelector("a").innerHTML = "";
   }
 }
 
@@ -81,4 +81,4 @@ for (let item of items) {
 document.addEventListener("click", closeSubmenu, false);
 
 /* modified*/
-document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+document.querySelector("#lastModified").textContent = ` Last Modification: ${document.lastModified}`;
