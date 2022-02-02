@@ -46,15 +46,17 @@ a {
 	color: white;
 	text-decoration: none;
 }
-div{
+
+.wrapper div{
 	background-color: #28AFB0;
 	border: 1px solid gray;
-	margin: 0;
 }
-div li{
+
+.wrapper ul{
 	margin: 5px;
 	
 }
+
 ul,
 .menu,
 .submenu {
