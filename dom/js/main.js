@@ -9,9 +9,9 @@ submit.addEventListener('click', () => {
       onclick="removeNameFromTheList(this)">X</button>`
     list.innerHTML += createAnHTMLList
     input.value = ''
-    input.classList.remove('el');
+    input.classList.removeChild('item');
   } else {
-    input.classList.add('el');
+    input.classList.appendChild('item');
   }
 })
 
