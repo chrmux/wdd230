@@ -1,0 +1,19 @@
+/* for mobile screen view */
+
+@media screen and (max-width: 700px) {
+	footer {
+		width: 100%;
+	}
+
+	.wrapper {
+		width: 100%;
+		display: block;
+	}
+}
+
+@media all and (mix-width: 700px) {
+	.wrapper {
+		width: 100%;
+		display: block;
+	}
+}

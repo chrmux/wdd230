@@ -1,0 +1,25 @@
+/* for tablet mode view */
+
+@media screen and (max-width: 700px) {
+	footer {
+		width: 100%;
+	}
+}
+
+/* Tablet menu */
+@media all and (min-width: 700px) {
+	.menu {
+		justify-content: center;
+	}
+
+	.logo {
+		flex: 1;
+	}
+
+
+	.toggle {
+		flex: 1;
+		text-align: right;
+		order: 2;
+	}
+}
