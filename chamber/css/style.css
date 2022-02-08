@@ -173,7 +173,7 @@ a:hover,
 
   .box {
     background-color: #444;
-    color: #fff;
+    color: black;
     border-radius: 5px;
     padding: 20px;
     font-size: 100%;
@@ -183,7 +183,7 @@ a:hover,
   }
 
   .d h1 {
-	  font-size: 20px;
+	  font-size: 22px; 
   }
 
   .d p {
@@ -192,7 +192,7 @@ a:hover,
   }
 
   .d a {
-	font-size: 12px;
+	font-size: 16px;
 	color: blue;
 }
 .d a:hover{
@@ -200,8 +200,8 @@ a:hover,
 }
 
   .box .box {
-    background-color: #ccc;
-    color: #444;
+    background-color: #F0CF65;
+    color: black;
   }
 
   .a {
@@ -251,10 +251,10 @@ a:hover,
   }
 
   .h h1{
-	  background-color: white;
+	  background-color: #F0CF65;
 	  border-radius: 10px;
 	  cursor: pointer;
-	  color: gray;
+	  color: black;
   }
 
 footer {
@@ -281,6 +281,11 @@ footer {
 	padding: 10px;
 	border-radius: 10px;
 	background-color: #F0CF65;
+	cursor: pointer;
+}
+
+hr {
+	margin: 10px;
 }
 
 footer {

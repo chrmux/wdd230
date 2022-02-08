@@ -9,11 +9,17 @@
 		width: 100%;
 		display: block;
 	}
+	.b img {
+		width: 480px;
+	}
 }
 
 @media all and (mix-width: 700px) {
 	.wrapper {
 		width: 100%;
 		display: block;
+	}
+	.b img {
+		width: 480px;
 	}
 }
