@@ -269,11 +269,9 @@ footer {
 
 .b {
 	position: relative;
-	background-image: url("https://chrmux.github.io/wdd230//chamber/images/albay.jpg");
+	background-image: url("https://chrmux.github.io/wdd230/chamber/images/albay.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0;
-	padding: 0;
 }
 .stats {
 	position: absolute;

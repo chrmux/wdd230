@@ -4,6 +4,12 @@
 	footer {
 		width: 100%;
 	}
+	header img {
+		width: 90px;
+	}
+	header h1 {
+		font-size: 20px;
+	}
 }
 
 /* Tablet menu */
