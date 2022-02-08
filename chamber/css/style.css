@@ -13,15 +13,13 @@ nav {
 }
 
 nav img {
-	width: 175px;
-	margin-left: 50px;
+	width: 215px;
+	padding-left: 50px;
 }
 
-.social img {
+a img {
 	width: 40px;
-	padding-top: 40px;
-
-	margin: 0;
+	padding: 40px 0;
 }
 
 body {
@@ -61,6 +59,16 @@ a {
 .wrapper ul{
 	margin: 5px;
 	
+}
+
+header a {
+	float: left;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
 }
 
 ul,
@@ -154,33 +162,100 @@ a:hover,
 	border-radius: 3px;
 }
 
-main {
-	padding: 0 1em;
-	font-size: 1em;
-
-}
-
 .wrapper {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-auto-rows: 100px;
-	gap: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, [col] 150px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+	text-align: center;
+	justify-content: center;
+
+  }
+
+  .d h1 {
+	  font-size: 20px;
+  }
+
+  .d p {
+	  font-weight: bold;
+	  padding: 10px;
+  }
+
+  .d a {
+	font-size: 12px;
+	color: blue;
+}
+.d a:hover{
+	color: white;
 }
 
-.wrapper div:nth-child(2) {
-	grid-column: 4;
-	grid-row: 1 / 4;
-}
+  .box .box {
+    background-color: #ccc;
+    color: #444;
+  }
 
-.wrapper div:nth-child(1) {
-	grid-column: 2 / 4;
-	grid-row: 1 / 3;
-}
+  .a {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 19;
+  }
 
-.wrapper div:nth-child(5) {
-	grid-column: 2 / 4;
-	grid-row: 3;
-}
+  .b {
+    grid-column: col 3 / span 5;
+    grid-row: auto / span 37;
+  }
+
+  .d {
+    grid-column:  col 7 / span 2;
+    grid-row: 1 / span 55;
+  }
+
+  .c{
+    grid-column: col 1 / span 2;
+    grid-row: 20 / span 18;
+  }
+
+  .e {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 2;
+
+  }
+
+  .f {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .g {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .h{
+    grid-column: col 1 / span 2;
+    grid-row: 38 / span 18;
+  }
+
+  .i{
+    grid-column: col 3 / span 5;
+    grid-row: 38 / span 18;
+  }
+
+  .h h1{
+	  background-color: white;
+	  border-radius: 10px;
+	  cursor: pointer;
+	  color: gray;
+  }
 
 footer {
 	background: black;
@@ -190,6 +265,24 @@ footer {
 	font-size: 14px;
 	color: #fff;
 
+}
+
+.b {
+	position: relative;
+	background-image: url("https://chrmux.github.io/wdd230//chamber/images/albay.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.stats {
+	position: absolute;
+	top: 85px;
+	right: 50px;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #F0CF65;
 }
 
 footer {
