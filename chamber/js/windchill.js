@@ -1,5 +1,8 @@
-const celsiusToFahrenheit = (celsius) => celsius * 1.8 + 32;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) / 1.8;
-
-document.getElementById("speed").textContent = celsiusToFahrenheit;
-document.getElementById("chill").textContent = fahrenheitToCelsius;
+function windChill(form) {
+    wind=eval(form.wind.value);
+    temp=eval(form.temp.value);
+    chill=(0.0817*(3.71*(Math.pow(wind, 0.5))+
+    5.81-0.25*wind)*(temp-91.4)+91.4);
+    form.windchill.value = Math.round(chill);
+    }
+    
