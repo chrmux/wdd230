@@ -301,9 +301,14 @@ footer {
 	position: relative;
 }
 
-section #phrase, #weekday{
+section {
 	background-color: #F0CF65;
 	border-radius: 1px solid #F0CF65;
+	border: 1px solid #000;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #F0CF65;
+	cursor: pointer;
 }
 .stats {
 	position: absolute;
@@ -314,7 +319,7 @@ section #phrase, #weekday{
 	border-radius: 10px;
 	background-color: #F0CF65;
 	cursor: pointer;
-	display: none;
+	display: block;
 }
 
 hr {

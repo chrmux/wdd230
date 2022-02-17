@@ -1,23 +1,28 @@
 /* for mobile screen view */
 
 @media screen and (max-width: 700px) {
+	header {
+		width: 100%;
+	}
 	footer {
 		width: 100%;
 	}
 
 	.wrapper {
 		width: 100%;
-		display: block;
 	}
 	.b img {
 		width: 480px;
 	}
+	picture {
+		width: 100%;
+	}
 }
 
-@media all and (mix-width: 700px) {
+@media all and (max-width: 700px) {
 	.wrapper {
 		width: 100%;
-		display: block;
+
 	}
 	.b img {
 		width: 480px;

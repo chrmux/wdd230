@@ -1,25 +1,50 @@
-let date = new Date();
-let dayOfWeekNumber = date.getDay();
-let nameOfDay;
-let quote;
+const date = new Date();
+const dayOfWeekNumber = date.getDay();
+const nameOfDay;
+const quote;
 
 switch(dayOfWeekNumber){
     case 0: 
-        nameOfDay = 'Sturday';
+        nameOfDay = 'Monday';
         quote = 'Time to chillax!';
+        break;
+
+    case 1:
+        nameOfDay = 'Tuesday';
+        quote = 'Chamber';
+        break;
+        
+    case 2:
+        nameOfDay = 'Wednesday';
+        quote = 'Join Chamber';
+        break;
+
+    case 3:
+        nameOfDay = 'Thursday';
+        quote = 'the Chamber';
+        break;
+
+    case 4:
+        nameOfDay = 'Friday';
+        quote = 'Join Chamber';
+        break;
+        
+    case 5:
+        nameOfDay = 'Saturday';
+        quote = 'Join the Chamber';
         break;
     case 6:
         nameOfDay = 'Sunday';
         quote = 'Join the Chamber';
         break;
-
+    
 }
 //Display the day of the week
-let weekdayDiv = document.getElementById('weekday');
+const weekdayDiv = document.getElementById('weekday');
 weekdayDiv.innerHTML = `${nameOfDay}`;
 
 //Display quote
-let quoteDiv = document.getElementById('phrase');
+const quoteDiv = document.getElementById('phrase');
 quoteDiv.innerHTML = `${quote}`
 
 function nextweek(){

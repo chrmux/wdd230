@@ -4,9 +4,7 @@
 	footer {
 		width: 100%;
 	}
-	.wrapper {
-		display: block;
-	}
+
 	.wrapper {
 		display: grid;
 		grid-gap: 10px;
