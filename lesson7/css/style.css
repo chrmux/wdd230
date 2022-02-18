@@ -4,7 +4,7 @@ body {
   grid-template-columns: 300px 1fr;
   gap: 1rem;
   align-items: center;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
 }
 img {
@@ -43,6 +43,10 @@ h2 {
     opacity: 1; 
   }
 
+.list img:hover {
+  box-shadow: 0 0 50px gray;
+}
+
 @media screen and (max-width:700px){
     .list img {
         width: 100%;
@@ -53,5 +57,12 @@ h2 {
   body {
     display: block;
     font-size: 80%;
+  }
+  p {
+    position: relative;
+    padding: 1rem;
+  }
+  .list img:hover {
+    box-shadow: none;
   }
 }
