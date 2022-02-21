@@ -31,16 +31,27 @@ td {
 	text-align: center;
 }
 
-tbody tr:nth-child(even) {
-	background-color: #e2ddbf;
-}
-
 tr:nth-child(2) th {
 	background-color: #28AFB0;
 	color: var(--foredark);
 }
 
-tr:nth-child(9) td{
+tr:nth-child(3) td {
+	background-color: #e2ddbf;
+	color: var(--foredark);
+}
+
+tr:nth-child(5) td {
+	background-color: #e2ddbf;
+	color: var(--foredark);
+}
+
+tr:nth-child(7) td {
+	background-color: #e2ddbf;
+	color: var(--foredark);
+}
+
+tr td:nth-child(10) td{
 	color: #fff;
 }
 
@@ -57,9 +68,7 @@ td {
 	text-align: center;
 }
 
-tbody tr:nth-child(even) td{
-	background-color: #e2ddbf;
-}
+
 
 html {
     font-family: 'Ubunto', sans-serif;
