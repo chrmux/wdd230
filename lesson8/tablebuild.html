@@ -11,19 +11,22 @@
 
 <body>
     <table id="table1">
+      <thead>
       <tr>
         <th>Table Build</th>
       </tr>
+      </thead>
     <tr>
       <td id="nested">
         <table id="table2">
+          <tbody>
           <tr>
             <th colspan="3">ACME Wildwest</th>
           </tr>
           <tr>
-            <th>Period</th>
-            <th>Sales</th>
-            <th>Sales Goal</th>
+            <th class="tbody">Period</th>
+            <th class="tbody">Sales</th>
+            <th class="tbody">Sales Goal</th>
           </tr>
           <tr>
             <td>August</td>
@@ -43,7 +46,7 @@
           <tr>
             <td>November</td>
             <td>$8,610</td>
-            <td bgcolor="#F0CF65">$7,500</td>
+            <td class="highlight">$7,500</td>
           </tr>
           <tr>
             <td>Black Friday</td>
@@ -55,8 +58,9 @@
             <td>$7,500</td>
           </tr>
             <tr>
-              <td colspan="3" bgcolor="#28AFB0">Compiled 02.22.2022 by Jerry</td>
+              <td colspan="3">Compiled 02.22.2022 by Jerry</td>
             </tr>
+          </tbody>
         </table>
       </td>
     </tr>

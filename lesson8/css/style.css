@@ -31,28 +31,17 @@ td {
 	text-align: center;
 }
 
-tr:nth-child(2) th {
+tr:nth-child(2n+3){
 	background-color: #28AFB0;
 	color: var(--foredark);
 }
 
-tr:nth-child(3) td {
-	background-color: #e2ddbf;
-	color: var(--foredark);
+tr:nth-child(9n) td{
+	background-color: black;
+	color: var(--forelight);
 }
-
-tr:nth-child(5) td {
-	background-color: #e2ddbf;
-	color: var(--foredark);
-}
-
-tr:nth-child(7) td {
-	background-color: #e2ddbf;
-	color: var(--foredark);
-}
-
-tr td:nth-child(10) td{
-	color: #fff;
+.highlight {
+	background-color: #F0CF65;
 }
 
 th, td {
