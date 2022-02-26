@@ -15,11 +15,13 @@ nav {
 nav img {
 	width: 215px;
 	padding-left: 50px;
+	cursor: pointer;
 }
 
 a img {
 	width: 40px;
 	padding: 40px 0;
+	cursor: pointer;
 }
 
 body {
