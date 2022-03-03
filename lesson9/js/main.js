@@ -22,8 +22,9 @@ function displayProphets(prophet) {
 
   // Change the textContent property of the h2 element to contain the prophet's full name
   h2.textContent = prophet.name + ' ' + prophet.lastname;
-  p.textContent += 'Date of Birth: ' + prophet.birthdate, ' <br>';
-  p.textContent += 'Birth Place: ' + prophet.birthplace;
+  p.textContent += 'Date of Birth: ' + prophet.birthdate;
+  p.innerHTML += '<br>' + 'Birth Place: ' + prophet.birthplace;
+  
   
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).

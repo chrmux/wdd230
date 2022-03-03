@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and(max-width: 700px){
+    .cards {
+        width: 100%;
+
+    }
+    
+}
