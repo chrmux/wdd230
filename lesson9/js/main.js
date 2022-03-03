@@ -23,7 +23,7 @@ function displayProphets(prophet) {
   // Change the textContent property of the h2 element to contain the prophet's full name
   h2.textContent = prophet.name + ' ' + prophet.lastname;
   p.textContent += 'Date of Birth: ' + prophet.birthdate;
-  p.innerHTML += '<br>' + 'Birth Place: ' + prophet.birthplace;
+  p.innerHTML += '<br>' + 'Place of Birth: ' + prophet.birthplace;
   
   
 
