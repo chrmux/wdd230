@@ -13,6 +13,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #fff;
+    border: 1px solid #333;
   }
   
   section {
