@@ -1,6 +1,13 @@
 body {
-    margin: 0;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 auto;
     font-family: Poppins, sans-serif;
+}
+main {
+    max-width: 767px;
+    margin: auto;
+    padding: auto;
 }
 
 .cards {
