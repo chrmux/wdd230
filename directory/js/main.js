@@ -1,4 +1,4 @@
-const data = '/directory/js/data.json';
+const data = 'https://chrmux.github.io/wdd230/directory/directory.html/directory/js/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(data)
