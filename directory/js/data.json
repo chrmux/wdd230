@@ -5,28 +5,28 @@
         "addresses": "Cruzada, Legazpi City, Albay, , Legazpi City, Albay, Philippines﻿",
         "phones": "(052) 732-7298",
         "website": "http://juanhr.com/",
-        "imageurl": "/directory/images/directory-img.png"
+        "imageurl": "https://chrmux.github.io/wdd230/directory/images/directory-img.png"
       },
       {
         "name": "Collabux Web Solutions, Co.",
         "addresses": "Unit 203, Pineda Building, Rizal Street, Legazpi City, Albay, Philippines",
         "phones": "(052) 742-6214",
         "website": "http://collabux.com",
-        "imageurl": "/directory/images/directory3.png"
+        "imageurl": "https://chrmux.github.io/wdd230/directory/images/directory3.png"
       },
       {
         "name": "Pixel8 ",
         "addresses": "Cruzada, Legazpi City, Albay, , Legazpi City, Albay, Philippines﻿",
         "phones": "(63) 917 157 2291",
         "website": "http://pixel8.com/",
-        "imageurl": "/directory/images/directory2.png"
+        "imageurl": "https://chrmux.github.io/wdd230/directory/images/directory2.png"
       },
       {
         "name": "3k Variety",
         "addresses": "Daraga Albay 4501",
         "phones": "+63 997 7093 208",
         "website": "https://example.com",
-        "imageurl": "/directory/images/directory4.png"
+        "imageurl": "https://chrmux.github.io/wdd230/directory/images/directory4.png"
       }
       
     ]
