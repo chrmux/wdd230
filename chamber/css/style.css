@@ -189,16 +189,9 @@ a:hover,
 }
 
 .small img {
-	width: 25%;
-}
-
-.medium img {
-	width: 50%;
-}
-
-.large img {
-	width: 75%;
-
+	background-image: "/chamber/images/albay.jpg";
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .d h1 {
