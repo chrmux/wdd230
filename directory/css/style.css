@@ -2,23 +2,70 @@ body{
 	font-size: 18px;
 	color: #444;
   margin: 0;
-}
-
-section {
-  background-color: white;
-  border: none;
+  padding: 10px 20px;
 }
   
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row: auto;
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-content: center;
+  text-align: center;
 
-  }
-  main {
-    background-color: white;;
-  }
+}
+main {
+  background-color: white;
+}
 
 img{
-    width: 250px;
+    width: 200px;
   }
+
+  /* small Views ******************************/
+@media only screen and (min-width: 25.75em) {
+	main {
+		grid-template-columns: 1fr;
+	}
+
+	main img:nth-child(2) {
+		display: block;
+	}
+
+	main img:nth-child(3) {
+		grid-column: span 1;
+	}
+
+	main img {
+		display: block;
+	}
+	main img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+/* medium Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+	main img {
+		display: block;
+	}
+	main img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main img:nth-child(3) {
+		grid-column: span 1;
+	}
+}

@@ -1,5 +1,5 @@
 const requestURL = '/directory/js/data.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('#cards');
 
 fetch(requestURL)
   .then(function (response) {return response.json();})
@@ -12,7 +12,7 @@ fetch(requestURL)
 
 
 function displayCards(directorys) {
-  let card = document.createElement('section');
+  let card = document.createElement('picture');
   let image = document.createElement('img');
 
   image.src = directorys.imageurl;
