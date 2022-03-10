@@ -76,14 +76,10 @@
                 <div class="temp">33&#176;C</div>
                 <div class="description">Party Cloudy</div>
                 <hr>
-                <form action="post" method=post name=windform>
-                    <span>Air Temperature (ºF) =</span>
-                    <input type=text name=temp value="" size=6>
-                    <br><span>Wind Speed (MPH) =</span> 
-                    <input type=text name=wind value="" size=6>
-                    <input type=button value="Calculate Wind Chill" onclick="windChill(this.form)">
-                    <br><br><span>Wind Chill =</span><input name=windchill type=text value="" size=10> º F
-                </form>
+                <p>Currently: <span id="temp">10</span>&#176;F</p>
+                <p>Wind Speed: <span id="wspeed">30</span> mph</p>
+                <p>Wind Chill: <span id="wchill"></span></p>
+        
             </div>
             <div class="box d">
                 <div class="box e">

@@ -1,16 +1,88 @@
 
 {"directorys":[{
     
-      "name": "Large view",
-      "url": "/directory/images/directory-img.png"
+      "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/juanhr.png"
     },
     {
-      "name": "medium view",
-      "url": "/directory/images/medium.png"
+      "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/px8.png"
     },
     {
-      "name": "small view",
-      "url": "/directory/images/small-wf.png"
+      "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/collab.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/af.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/js.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/3d.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/studio.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/dctv.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/rahul.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/tec.png"
+    },
+    {
+    "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/ninjavan.png"
+    },
+    {
+      "name": "",
+      "Address": "",
+      "phone": "",
+      "website": "",
+      "imageurl": "/directory/images/vista.png"
     }
   ]
 }
