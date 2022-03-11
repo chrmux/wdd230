@@ -189,7 +189,7 @@ a:hover,
 }
 
 .small img {
-	background-image: "/chamber/images/albay.jpg";
+	background-image: "https://chrmux.github.io/wdd230/chamber/images/albay.jpg";
 	background-size: cover;
 	background-repeat: no-repeat;
 }
