@@ -2,16 +2,19 @@
 
 @media screen and (max-width: 700px) {
 	header {
+		display: flex;
 		width: 100%;
 	}
 	footer {
 		width: 100%;
 	}
 
-	.wrapper {
+	.container {
+		display: flex;
 		width: 100%;
+		padding: 10px;
 	}
-	.b img {
+	.chamber{
 		width: 480px;
 	}
 	picture {
@@ -20,11 +23,12 @@
 }
 
 @media all and (max-width: 700px) {
-	.wrapper {
+	.container {
+		display: flex;
 		width: 100%;
 
 	}
-	.b img {
+	.chamber{
 		width: 480px;
 	}
 }

@@ -79,6 +79,3 @@ for (let item of items) {
   item.addEventListener("keypress", toggleItem, false);
 }
 document.addEventListener("click", closeSubmenu, false);
-
-/* modified*/
-document.querySelector("#lastModified").textContent = ` Last Modification: ${document.lastModified}`;

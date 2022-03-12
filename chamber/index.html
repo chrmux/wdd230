@@ -14,83 +14,87 @@
     <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/style.css" />
     <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/small.css" />
     <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/normalize.css" />
 
     <title>Albay Chamber</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="header">
-                <ul class="menu">
-                    <li class="logo"><img src="https://chrmux.github.io/wdd230/chamber/images/ACoC.png" alt="logo-img"><a href="https://chrmux.github.io/wdd230/chamber/index.html"></a>
-                    </li>
-                    <li class="item"><a href="https://chrmux.github.io/wdd230/chamber/index.html">Home</a></li>
-                    <li class="item"><a href="#">Directory</a></li>
-                    <li class="item"><a href="https://chrmux.github.io/wdd230/chamber/join.html">Join</a></li>
-                    <li class="item"><a href="#">Contact</a></li>
-                    <li class="item"><a href="https://chrmux.github.io/wdd230/discover/discover.html">Discover</a></li>
-                    <li><a href="https://www.facebook.com" target="blank"><img
-                                src="https://chrmux.github.io/wdd230/lesson3/images/social/fb_logo_icon.png"
-                                alt=""></a></li>
-                    <li><a href="https://www.twitter.com" target="blank"><img
-                                src="https://chrmux.github.io/wdd230/lesson3/images/social/twitter_logo_icon.png"
-                                alt=""></a></li>
-                    <li class="toggle">&#8801;</li>
-                </ul>
-                <div id="currentdate"></div>
+        <div class="header">
+            <!--<div id="banner">
+                <p class="join">&#129309; Come join us for the chamber meet and greet Wednesdays at 7:00 p.m.</p>
+              </div>-->
+            <img src="https://chrmux.github.io/wdd230/chamber/images/ACoC.png" alt="logo-img">
+            <a href="https://chrmux.github.io/wdd230/chamber/index.html"></a>
+            <div class="social">
+                <a href="https://www.facebook.com" target="blank"><img
+                        src="https://chrmux.github.io/wdd230/lesson3/images/social/fb_logo_icon.png" alt=""></a>
+                <a href="https://www.twitter.com" target="blank"><img
+                        src="https://chrmux.github.io/wdd230/lesson3/images/social/twitter_logo_icon.png" alt=""></a>
             </div>
-        </nav>
+            <div class="navbar">
+                <a class="item" href="https://chrmux.github.io/wdd230/chamber/index.html">Home</a>
+                <a class="item" href="/directory/directory.html">Directory</a>
+                <a class="item" href="https://chrmux.github.io/wdd230/chamber/join.html">Join</a>
+                <a class="item" href="#">Contact</a></li>
+                <a class="item" href="https://chrmux.github.io/wdd230/discover/discover.html">Discover</a>
+            </div>
+
+            <div class="toggle">
+                <li class="toggle">&#8801;</li>
+            </div>
+            <div id="currentdate"></div>
+        </div>
     </header>
     <main>
-        <div class="wrapper">
-            <div class="box a">
+        <div class="container">
+            <div class="event">
                 <h1>Ribon Cutting</h1>
                 <p>The Diamond Shack</p>
                 <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m more info..</p>
+
+            </div>
+            <div class="chamber">
+                <h1>Welcome To Albay</h1>
                 <section class="stats">
                     <h2>Join the Chamber</h2>
-                    <div id="weekday" style="display: block;"></div>
-                    <div id="phrase" style="display: block;" ></div>
+                    <div id="banner" style="display: block;"></div>
                 </section>
             </div>
-            <div class="box b">
-                <h1>Welcome To Albay</h1>
-                <picture class="small">
-                    <img src="" alt="">
-                </picture>
-            </div>
-            <div class="box c">
+            <div class="weather">
                 <h1 class="city">Weather</h1>
                 <div class="weather-container">
                     <div class="weather-icon">
-                        <img src="https://chrmux.github.io/wdd230/chamber/images/animated/cloudy-day-3.svg" alt="">
+                        <div id="icon-src">
+                            <figure>
+                                <img src="" alt="" id="weathericon" />
+                            </figure>
+                        </div>
                     </div>
+                    <div id="temp"><span> </span>&deg;F</div>
                 </div>
-                <div class="temp">33&#176;C</div>
-                <div class="description">Party Cloudy</div>
                 <hr>
-                <p>Currently: <span id="temp">10</span>&#176;F</p>
                 <p>Wind Speed: <span id="speed">30</span> mph</p>
                 <p>Wind Chill: <span id="chill"></span></p>
-        
+
             </div>
-            <div class="box d">
-                <div class="box e">
+            <div class="a-side">
+                <div class="a">
                     <h1>Thankful Transport</h1>
                     <p>"We get it there for you!"</p>
                     <hr>
                     <a href="#">hello@thankfultransport.com</a>
                     <p>+63 997 7093 208 | website</p>
                 </div>
-                <div class="box f">
+                <div class="b">
                     <h1>Code Primera</h1>
                     <p>An after school coding instructional program.</p>
                     <hr>
                     <a href="#">contact@codeprimera.com</a>
                     <p>+63 997 7093 208 | website</p>
                 </div>
-                <div class="box g">
+                <div class="c">
                     <h1>Build A Treefort</h1>
                     <p>"Over 1000 Plans!"</p>
                     <hr>
@@ -98,11 +102,11 @@
                     <p>+63 997 7093 208 / website</p>
                 </div>
             </div>
-            <div class="box h">
+            <div class="discover">
                 <h1><a href="https://chrmux.github.io/wdd230/chamber/join.html"></a> Join Us!</h1>
                 <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
             </div>
-            <div class="box i">
+            <div class="news">
                 <h1>News Release</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -116,9 +120,14 @@
         </div>
     </main>
     <footer>
-        <hr>
-        <p>&copy; 2022 | <span id="currentdate2"> Albay Chamber | Jerry N. Marollano | WDD 230 Project | </span><a
-                id="lastModified"></a></p>
+        <img class="logo" src="https://chrmux.github.io/wdd230/chamber/images/ACoC.png" alt="logo-img">
+        <h1>- Albay Chamber -</h1>
+        <p>P-6 Brgy Market Site Daraga Albay</p>
+        <div class="autor">
+            <hr>
+            <h2>&copy; XXXX - Jerry N. Marollano | WDD 230 Project</h2>
+            <p id="modDate">Last modified XXXX</p>
+        </div>
     </footer>
 
     <script src="https://chrmux.github.io/wdd230/chamber/js/main.js"></script>

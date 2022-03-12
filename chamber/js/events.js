@@ -1,54 +1,14 @@
-const date = new Date();
-const dayOfWeekNumber = date.getDay();
-const nameOfDay;
-const quote;
+var today = new Date();
 
-switch(dayOfWeekNumber){
-    case 0: 
-        nameOfDay = 'Monday';
-        quote = 'Time to chillax!';
-        break;
+const yearDisplay = document.querySelector('footer h2');
+var todayYear = today.getFullYear();
+yearDisplay.innerHTML = `&copy; ${todayYear} - Jerry N. Marollano | WDD 230 Project`;
 
-    case 1:
-        nameOfDay = 'Tuesday';
-        quote = 'Chamber';
-        break;
-        
-    case 2:
-        nameOfDay = 'Wednesday';
-        quote = 'Join Chamber';
-        break;
+const modDateDisplay = document.getElementById('modDate');
+let modDate = document.lastModified;
+modDateDisplay.textContent = ("Last modified "+modDate);
 
-    case 3:
-        nameOfDay = 'Thursday';
-        quote = 'the Chamber';
-        break;
+let weekday = today.getDay();
 
-    case 4:
-        nameOfDay = 'Friday';
-        quote = 'Join Chamber';
-        break;
-        
-    case 5:
-        nameOfDay = 'Saturday';
-        quote = 'Join the Chamber';
-        break;
-    case 6:
-        nameOfDay = 'Sunday';
-        quote = 'Join the Chamber';
-        break;
-    
-}
-//Display the day of the week
-const weekdayDiv = document.getElementById('weekday');
-weekdayDiv.innerHTML = `${nameOfDay}`;
-
-//Display quote
-const quoteDiv = document.getElementById('phrase');
-quoteDiv.innerHTML = `${quote}`
-
-function nextweek(){
-    var today = new Date();
-    var nextweek = new Date(today.getFullYear(), today.getMonth(), today.getDate()+7);
-    return nextweek;
-}
+const banner = document.getElementById('banner');
+if (weekday >=1 && weekday <=2) {banner.style.display = "block";}
