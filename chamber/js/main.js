@@ -52,13 +52,13 @@ function toggleMenu() {
 
 /* Activate Submenu */
 function toggleItem() {
-  if (this.classList.contains("submenu-active")) {
-    this.classList.remove("submenu-active");
-  } else if (navbar.querySelector(".submenu-active")) {
-    navbar.querySelector(".submenu-active").classList.remove("submenu-active");
-    this.classList.add("submenu-active");
+  if (this.classList.contains("subnavbar-active")) {
+    this.classList.remove("subnavbar-active");
+  } else if (navbar.querySelector(".subnavbar-active")) {
+    navbar.querySelector(".subnavbar-active").classList.remove("subnavbar-active");
+    this.classList.add("subnavbar-active");
   } else {
-    this.classList.add("submenu-active");
+    this.classList.add("subnavbar-active");
   }
 }
 
@@ -66,14 +66,14 @@ function toggleItem() {
 function closeSubmenu(e) {
   let isClickInside = navbar.contains(e.target);
 
-  if (!isClickInside && navbar.querySelector(".submenu-active")) {
-    navbar.querySelector(".submenu-active").classList.remove("submenu-active");
+  if (!isClickInside && navbar.querySelector(".subnavbar-active")) {
+    navbar.querySelector(".subnavbar-active").classList.remove("subnavbar-active");
   }
 }
 /* Event Listeners */
 toggle.addEventListener("click", toggleMenu, false);
 for (let item of items) {
-  if (item.querySelector(".submenu")) {
+  if (item.querySelector(".subnavbar")) {
     item.addEventListener("click", toggleItem, false);
   }
   item.addEventListener("keypress", toggleItem, false);
