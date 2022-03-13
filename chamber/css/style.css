@@ -99,7 +99,7 @@ a:hover,
 	padding: 15px;
 }
 
-.toggle {
+.navbar .toggle {
 	order: 1;
 	font-size: 45px;
 	color: #fff;
@@ -305,7 +305,7 @@ hr {
 		background: #111;
 	}
 
-	.toggle {
+	.navbar .toggle {
 		display: none;
 	}
 
