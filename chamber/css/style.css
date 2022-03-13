@@ -243,7 +243,7 @@ footer {
 }
 
 .chamber{
-	background-image: url("/chamber/images/wdd230-org.jpg");
+	background-image: url("https://chrmux.github.io/wdd230/chamber/images/wdd230-org.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
