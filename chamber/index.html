@@ -11,7 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/base.css" />
     <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/small.css" />
     <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/medium.css" />
     <link rel="stylesheet" type="text/css" href="https://chrmux.github.io/wdd230/chamber/css/normalize.css" />
@@ -21,31 +21,28 @@
 
 <body>
     <header>
-        <div class="header">
-            <!--<div id="banner">
+        <nav>
+            <a class="logo" href="https://chrmux.github.io/wdd230/chamber/index.html"><img
+                    src="https://chrmux.github.io/wdd230/chamber/images/ACoC.png" alt="logo-img"></a>
+            <a class="social" href="https://www.facebook.com" target="blank"><img
+                    src="https://chrmux.github.io/wdd230/lesson3/images/social/fb_logo_icon.png" alt=""></a>
+            <a class="social" href="https://www.twitter.com" target="blank"><img
+                    src="https://chrmux.github.io/wdd230/lesson3/images/social/twitter_logo_icon.png" alt=""></a>
+            <ul class="navigation">
+                <li><a class="ham" href="#">Menu</a></li>
+                <li><a class="active" href="https://chrmux.github.io/wdd230/chamber/index.html">Home</a></li>
+                <li><a href="https://chrmux.github.io/wdd230/directory/directory.html">Directory</a></li>
+                <li><a href="https://chrmux.github.io/wdd230/chamber/join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="https://chrmux.github.io/wdd230/discover/discover.html">Discover</a></li>
+
+            </ul>
+            <div id="currentdate"></div>
+        </nav>
+        </div>
+        <!--<div id="banner">
                 <p class="join">&#129309; Come join us for the chamber meet and greet Wednesdays at 7:00 p.m.</p>
               </div>-->
-            <img src="https://chrmux.github.io/wdd230/chamber/images/ACoC.png" alt="logo-img">
-            <a href="https://chrmux.github.io/wdd230/chamber/index.html"></a>
-            <div class="social">
-                <a href="https://www.facebook.com" target="blank"><img
-                        src="https://chrmux.github.io/wdd230/lesson3/images/social/fb_logo_icon.png" alt=""></a>
-                <a href="https://www.twitter.com" target="blank"><img
-                        src="https://chrmux.github.io/wdd230/lesson3/images/social/twitter_logo_icon.png" alt=""></a>
-            </div>
-            <div class="navbar">
-                <ul>
-                    <li><a class="item" href="https://chrmux.github.io/wdd230/chamber/index.html">Home</a></li>
-                    <li><a class="item" href="https://chrmux.github.io/wdd230/directory/directory.html">Directory</a></li>
-                    <li><a class="item" href="https://chrmux.github.io/wdd230/chamber/join.html">Join</a></li>
-                    <li><a class="item" href="#">Contact</a>
-                    <li><a class="item" href="https://chrmux.github.io/wdd230/discover/discover.html">Discover</a></li>
-                
-                    <li class="toggle">&#8801;</li>
-                </ul>          
-            </div>
-            <div id="currentdate"></div>
-        </div>
     </header>
     <main>
         <div class="container">
@@ -72,7 +69,7 @@
                             </figure>
                         </div>
                     </div>
-                    <div id="temp"><span> </span>&deg;F</div>
+                    <div id="temp"></div>
                 </div>
                 <hr>
                 <p>Wind Speed: <span id="speed">30</span> mph</p>
@@ -128,11 +125,18 @@
             <h2>&copy; XXXX - Jerry N. Marollano | WDD 230 Project</h2>
             <p id="modDate">Last modified XXXX</p>
         </div>
+        <div class="social">
+            <li><a href="https://www.facebook.com" target="blank"><img
+                        src="https://chrmux.github.io/wdd230/lesson3/images/social/fb_logo_icon.png" alt=""></a></li>
+            <li><a href="https://www.twitter.com" target="blank"><img
+                        src="https://chrmux.github.io/wdd230/lesson3/images/social/twitter_logo_icon.png" alt=""></a>
+            </li>
+        </div>
     </footer>
 
-    <script src="https://chrmux.github.io/wdd230/chamber/js/main.js"></script>
     <script src="https://chrmux.github.io/wdd230/chamber/js/windchill.js"></script>
     <script src="https://chrmux.github.io/wdd230/chamber/js/events.js"></script>
+    <script src="https://chrmux.github.io/wdd230/chamber/js/base.js"></script>
 
 </body>
 

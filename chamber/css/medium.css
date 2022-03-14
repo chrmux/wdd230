@@ -21,7 +21,7 @@
 	}
 
 
-	.navbar .toggle {
+	.toggle {
 		flex: 1;
 		text-align: right;
 		order: 2;
