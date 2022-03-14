@@ -1,18 +1,8 @@
 /* for mobile screen view */
 
 @media screen and (max-width: 700px) {
-	header {
-		display: flex;
-		width: 100%;
-	}
 	footer {
 		width: 100%;
-	}
-
-	.container {
-		display: flex;
-		width: 100%;
-		padding: 10px;
 	}
 	.chamber{
 		width: 480px;
@@ -30,5 +20,28 @@
 	}
 	.chamber{
 		width: 480px;
+	}
+}
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		/* change state in small view */
+
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	#currentdate {
+		text-align: center;
 	}
 }

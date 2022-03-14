@@ -1,4 +1,5 @@
-/* Small/Phone View ***************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .logo img {
 	width: 200px;
 	padding-left: 10px;
@@ -77,31 +78,6 @@ nav {
 
 .responsive a.ham::before {
 	content: "❌ ";
-}
-
-/* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-
-	.navigation li {
-		display: block;
-		/* change state in small view */
-
-	}
-
-	.navigation a {
-		text-align: center;
-	}
-
-	.navigation li:first-child {
-		display: none;
-	}
-
-	#currentdate {
-		text-align: center;
-	}
 }
 
 main {

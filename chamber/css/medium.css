@@ -1,4 +1,3 @@
-/* for tablet mode view */
 
 @media screen and (max-width: 700px) {
 	footer {
@@ -10,22 +9,30 @@
 		width: 100%;
 }
 
-/* Tablet menu */
-@media all and (min-width: 700px) {
-	.navbar {
-		justify-content: center;
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
 	}
 
-	.logo {
-		flex: 1;
+	.navigation li {
+		display: block;
+		/* change state in small view */
+
 	}
 
+	.navigation a {
+		text-align: center;
+	}
 
-	.toggle {
-		flex: 1;
-		text-align: right;
-		order: 2;
+	.navigation li:first-child {
+		display: none;
+	}
+
+	#currentdate {
+		text-align: center;
 	}
 }
-	
+
 }
