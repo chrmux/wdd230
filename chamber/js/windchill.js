@@ -14,8 +14,8 @@ fetch(apiURL)
     let imgalt = jsObject.weather[0].description;
     weathericon.setAttribute('src', imgsrc);
     weathericon.setAttribute('alt', imgalt);
-    
-    });
+
+  });
 
 
 
@@ -33,6 +33,6 @@ if (temp <= 50 && speed > 3) {
 document.querySelector("#chill").innerHTML = windchill;
 
 function windChill(temp, speed) {
-  let answer = (35.74 + 0.6215*temp - 35.75*Math.pow(speed,0.16) + 0.4275*temp*Math.pow(speed,0.16));
+  let answer = (35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16));
   return Math.round((answer + Number.EPSILON) * 100) / 100;;
 }
