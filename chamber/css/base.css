@@ -197,6 +197,9 @@ footer {
 	text-align: center;
 
 }
+footer li{
+	list-style: none;
+}
 
 .chamber {
 	background-image: url("https://chrmux.github.io/wdd230/chamber/images/wdd230-org.jpg");
