@@ -19,10 +19,8 @@
 	background-color: #36454f;
 	color: #fff;
 	text-align: center;
-	justify-content: center;
 	padding: 5px;
 	border-radius: 10px;
-
 }
 
 li {
@@ -30,7 +28,7 @@ li {
 }
 
 nav {
-	margin: 0 auto;
+	margin: 0;
 	max-width: 1020px;
 	padding: 0;
 	background-color: black;
@@ -84,6 +82,20 @@ main {
 	padding: 1em;
 }
 
+.list {
+	border: 1px solid gray;
+	text-align: center;
+	padding: 1em;
+}
+
+.list img {
+	width: 540px;
+}
+
+p {
+	font-family: Arial, "Poppins", sans-serif;
+
+}
 
 .container {
 	display: grid;
@@ -117,7 +129,6 @@ main {
 	grid-row: 1 / span 14;
 	background-color: #28AFB0;
 	border-radius: 10px;
-	padding: 5px;
 
 }
 
@@ -126,8 +137,7 @@ main {
 	grid-row: auto / span 26;
 	background-color: #28AFB0;
 	border-radius: 10px;
-	width: 450px;
-	padding: 5px;
+	width: auto;
 
 }
 
@@ -136,8 +146,6 @@ main {
 	grid-row: 1 / span 44;
 	background-color: #28AFB0;
 	border-radius: 10px;
-	padding: 5px;
-
 }
 
 .weather {
@@ -145,8 +153,6 @@ main {
 	grid-row: 15 / span 12;
 	background-color: #28AFB0;
 	border-radius: 10px;
-	padding: 5px;
-
 }
 
 .discover {
@@ -154,7 +160,6 @@ main {
 	grid-row: 27 / span 18;
 	background-color: #28AFB0;
 	border-radius: 10px;
-	padding: 5px;
 
 }
 
@@ -163,8 +168,6 @@ main {
 	grid-row: 27 / span 18;
 	background-color: #28AFB0;
 	border-radius: 10px;
-	padding: 5px;
-
 }
 
 footer {
@@ -177,8 +180,24 @@ footer {
 	text-align: center;
 
 }
-footer li{
+
+footer img {
+	width: 90px;
+	padding: 15px;
+}
+
+footer li {
 	list-style: none;
+}
+
+.chamber a {
+	text-decoration: none;
+	background-color: #F0CF65;
+	font-weight: bold;
+	color: #000;
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px solid gray;
 }
 
 .chamber {
@@ -202,7 +221,7 @@ footer li{
 
 }
 
-footer img {
+footer .loogo img {
 	width: 90px;
 }
 
@@ -214,8 +233,6 @@ hr {
 	margin: 10px;
 }
 
-.title,
-.title img {
-	width: 90px;
-	float: left;
+.title {
+	display: flex;
 }

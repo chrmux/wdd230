@@ -14,7 +14,7 @@ main {
   padding: 10px;
 }
 
-.box {
+.box d{
   background-color: #fff;
   padding: 5px;
   background-color: #28AFB0;
@@ -27,7 +27,6 @@ main {
   font-size: 20px;
   margin: 4px 2px;
   height: 10px auto;
-  cursor: pointer;
 }
 
 .containers {
@@ -129,7 +128,7 @@ input {
 }
 
 @media(max-width: 584px) {
-  .container {
+  .containers {
     width: 100%;
   }
 
@@ -157,7 +156,7 @@ input {
 }
 
 @media(max-width: 459px) {
-  .container .content .category {
+  .containers .content .category {
     flex-direction: column;
   }
   .member-details {

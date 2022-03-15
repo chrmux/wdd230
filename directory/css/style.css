@@ -1,27 +1,28 @@
-body{
+body {
 	font-size: 18px;
 	color: #444;
-  margin: 0;
-  padding: 10px 20px;
+	margin: 0;
+	padding: 10px 20px;
 }
-  
+
 #cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-  justify-content: center;
-  text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+	justify-content: center;
+	text-align: center;
 
 }
+
 main {
-  background-color: white;
+	background-color: white;
 }
 
-img{
-    width: 200px;
-  }
+img {
+	width: 200px;
+}
 
-  /* small Views ******************************/
+/* small Views ******************************/
 @media only screen and (min-width: 25.75em) {
 	main {
 		grid-template-columns: 1fr;
@@ -38,20 +39,24 @@ img{
 	main img {
 		display: block;
 	}
+
 	main img {
 		width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
 	}
 }
+
 /* medium Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	main {
 		grid-template-columns: 1fr 1fr;
 	}
+
 	main img {
 		display: block;
 	}
+
 	main img {
 		width: 100%;
 		height: auto;

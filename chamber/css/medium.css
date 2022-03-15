@@ -1,12 +1,21 @@
 
 @media screen and (max-width: 700px) {
+
+	}
 	footer {
 		width: 100%;
 	}
 
-	.container {
-		display: block;
+	.list img{
 		width: 100%;
+	}
+
+	.container {
+		width: 100%;
+}
+
+.chamber {
+	width: 100%;
 }
 
 
@@ -33,6 +42,5 @@
 	#currentdate {
 		text-align: center;
 	}
-}
-
+	
 }

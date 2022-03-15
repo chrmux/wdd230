@@ -4,9 +4,11 @@
 	footer {
 		width: 100%;
 	}
-	.chamber{
-		width: 480px;
+
+	.chamber img {
+		width: 100%;
 	}
+
 	picture {
 		width: 100%;
 	}
@@ -14,14 +16,16 @@
 
 @media all and (max-width: 700px) {
 	.container {
-		display: flex;
+		display: block;
 		width: 100%;
 
 	}
-	.chamber{
-		width: 480px;
+
+	.chamber img {
+		width: 100%;
 	}
 }
+
 @media only screen and (min-width: 32.5em) {
 	.navigation {
 		display: flex;
