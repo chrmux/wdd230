@@ -7,7 +7,6 @@ fetch(requestURL)
     console.table(jsonObject);
     const directorys = jsonObject['directorys'];
     directorys.forEach(displayCards);
-    directorys.forEach(displayListings);
   });
 
 
