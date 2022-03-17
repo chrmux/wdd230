@@ -1,8 +1,8 @@
-body {
-	font-size: 18px;
-	color: #444;
+* {
 	margin: 0;
-	padding: 10px 20px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
 #cards {
@@ -18,9 +18,6 @@ main {
 	background-color: white;
 }
 
-img {
-	width: 200px;
-}
 
 /* small Views ******************************/
 @media only screen and (min-width: 25.75em) {
