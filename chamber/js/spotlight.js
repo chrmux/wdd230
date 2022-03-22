@@ -1,4 +1,4 @@
-const requestURL = 'wdd230/directory/js/data.json';
+const requestURL = '/directory/js/data.json';
 const directorys = document.querySelector('.spotlight');
 let cspot = 0;
 let axpot = 0;
