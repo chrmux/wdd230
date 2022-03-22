@@ -1,36 +1,12 @@
-const daynames = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
-];
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December"
-];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
+var today = new Date();
 
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+const yearDisplay = document.querySelector('footer h2');
+var todayYear = today.getFullYear();
+yearDisplay.innerHTML = `&copy; ${todayYear} - Jerry N. Marollano | WDD 230 Project`;
 
-document.getElementById("currentdate").textContent = fulldate;
-
-const date2 = document.querySelector("currentdate2");
+const modDateDisplay = document.getElementById('modDate');
+let modDate = document.lastModified;
+modDateDisplay.textContent = ("Last modified "+modDate);
 
 
 const hambutton = document.querySelector('.ham');
