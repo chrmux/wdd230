@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/directory/js/data.json';
+const requestURL = 'https://byui-cit230.github.io/wdd230/directory/js/data.json';
 const cards = document.querySelector('.cards');
 const companies = document.querySelector('.spotlight');
 
