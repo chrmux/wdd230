@@ -14,27 +14,28 @@ fetch(requestURL)
 
 function displayDirectory(directorys) {
     const card = document.createElement('section');
-    const businessNm = document.createElement('p');
+    const Bname = document.createElement('h2');
     const image = document.createElement('img');
     const address = document.createElement('p');
-    const phoneNumber = document.createElement('p');
+    const phone = document.createElement('p');
     const website = document.createElement('a');
 
-    businessNm.textContent = directorys.name;
+    
     image.src = directorys.imageurl;
+    Bname.textContent = directorys.name;
     address.textContent = directorys.Address;
-    phoneNumber.textContent = directorys.phone;
+    phone.textContent = directorys.phone;
     website.textContent = directorys.website;
 
     image.alt = 'comp-logo';
     website.href = directorys.website;
     card.className = 'card-items';
-    businessNm.className = 'Bname';
+    Bname.className = 'Bname';
 
-    card.appendChild(businessNm);
+    card.appendChild(Bname);
     card.appendChild(image);
     card.appendChild(address);
-    card.appendChild(phoneNumber);
+    card.appendChild(phone);
     card.appendChild(website);
 
     cards.appendChild(card);
