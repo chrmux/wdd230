@@ -1,10 +1,4 @@
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
-    document.getElementById("head-date").classList.toggle("open");
-}
-
-const requestURL = '/directory/js/data.json';
+const requestURL = 'https://byui-cit230.github.io/directory/js/data.json';
 const cards = document.querySelector('.cards');
 const companies = document.querySelector('.spotlight');
 
@@ -84,3 +78,9 @@ const list = document.getElementById("list");
 
 grid.onclick = toggleGrid;
 list.onclick = toggleList;
+
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+    document.getElementById("head-date").classList.toggle("open");
+}
