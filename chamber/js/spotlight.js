@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/wdd230/directory/js/data.json';
+const requestURL = 'https://chrmux.github.io/wdd230/directory/js/data.json';
 const directorys = document.querySelector('.spotlight');
 let cspot = 0;
 let axpot = 0;
