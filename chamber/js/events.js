@@ -7,8 +7,3 @@ yearDisplay.innerHTML = `&copy; ${todayYear} - Jerry N. Marollano | WDD 230 Proj
 const modDateDisplay = document.getElementById('modDate');
 let modDate = document.lastModified;
 modDateDisplay.textContent = ("Last modified "+modDate);
-
-let weekday = today.getDay();
-
-const banner = document.getElementById('banner');
-if (weekday >=1 && weekday <=2) {banner.style.display = "block";}

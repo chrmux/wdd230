@@ -1,87 +1,111 @@
 {
   "directorys": [{
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/juanhr.png"
+      "name": "Juan HR",
+      "Address": "Cruzada, Legazpi City, Albay, , Legazpi City, Albay, Philippines",
+      "phone": "(052) 732-7298",
+      "website": "http://juanhr.com/",
+      "level": "Gold",
+      "message": "Send us a message and get a live feel of JuanHR. 100% free of charge, no commitments.",
+      "imageurl": "/directory/images/Aa.jpg"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/px8.png"
+      "name": "Pixel8 Web Solutions & Consultancy Inc.",
+      "Address": "Cruzada, Legazpi City, Albay, , Legazpi City, Albay, Philippines",
+      "phone": "(63) 917 157 2291",
+      "website": "https://pixel8.ph/",
+      "message": "Get your quality and affordable home, office and business needs in one stop",
+      "level": "Gold",
+      "imageurl": "/directory/images/Bb.png"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/collab.png"
+      "name": "Collabux Web Solutions, Co.",
+      "Address": "Unit 203, Pineda Building, Rizal Street, Legazpi City, Albay, Philippines",
+      "phone": "(052) 742-6214",
+      "website": "http://collabux.com",
+      "level": "Gold",
+      "message": "",
+      "imageurl": "/directory/images/Cc.png"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/af.png"
+      "name": "AlbayFlora",
+      "Address": "Express Flower Delivery to Albay, Philippines, Legazpi City, Albay",
+      "phone": "854-5337",
+      "website": "http://www.albayflora.com",
+      "level": "Bronze",
+      "message": "",
+      "imageurl": "/directory/images/Dd1.jpg"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/js.png"
+      "name": "South Eastern",
+      "Address": "Zone 3, Sta Elena, Malinao, Albay",
+      "phone": "+639287907288",
+      "website": "https://southeasternfiber.com/",
+      "level": "Gold",
+      "message": "We use the support of our neighborhood and constituents by giving them the opportunity & livelihood while participating in protecting the nature.",
+      "imageurl": "/directory/images/sef-logo.png"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/3d.png"
+      "name": "3D Architectural Visualization Studio",
+      "Address": "2 Orion St. Cor. Mercedes St. Brgy. Bel-Air 1200, Makati City, Biliran, Philippines, Angat, Albay",
+      "phone": "7433333347",
+      "website": "https://www.astrologyon.com/",
+      "level": "Bronze",
+      "message": "",
+      "imageurl": "/directory/images/Ff.jpg"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/studio.png"
+      "name": "DCTV CABLE NETWORK",
+      "Address": "2F PBC Centre, #8 Fr. J.L. Bates St. Old Albay, Legazpi City, Legazpi City, Albay, Philippines",
+      "phone": "(052) 4803054",
+      "website": "http://www.dctv.ph",
+      "level": "Gold",
+      "message": "",
+      "imageurl": "/directory/images/Gg.png"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/dctv.png"
+      "name": "Rahul Marketing Agency",
+      "Address": "Jose Abad Santos Ave, Clark Freeport, Mabalacat, Pampanga, Philippines, Angeles City, Albay",
+      "phone": "9637920274",
+      "website": "http://www.rahulmurarka.com",
+      "level": "Silver",
+      "message": "",
+      "imageurl": "/directory/images/Hh.png"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/rahul.png"
+      "name": "Tripartite Engineering and Construction (TEC)",
+      "Address": "Old Mayon Compound, Calzada, Ligao City, Albay , Ligao, Albay, Philippines",
+      "phone": "+639178297649",
+      "website": "https://bit.ly/3pslmsg",
+      "level": "Silver",
+      "message": "homegrown local construction firm specialising in General Engineering and Building Services (ACMV and Electrical) with an aggregated world class management and workforce experiences from Overseas (Singapore and Malaysia) and locally.",
+      "imageurl": "/directory/images/Ii.jpg"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/tec.png"
+      "name": "Virtual Ninjas PH",
+      "Address": "#1 Bonavente Bldg, P-5 Salvacion, Tabaco City, Tabaco, Albay, Philippines",
+      "phone": "052-558-2968",
+      "website": "https://www.virtualninjasph.com/",
+      "level": "Gold",
+      "message": "",
+      "imageurl": "/directory/images/Jj.png"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/ninjavan.png"
+      "name": "VistaPrinterhead",
+      "Address": "250 Lower Kent Ridge Road Singapore 119078, Balayan, Albay, Philippines",
+      "phone": "8403974089",
+      "website": "http://vistaprinthead.com",
+      "level": "Gold",
+      "message": "We focuses on providing Printheads, Boards, etc. Quality products, with competitive prices and can compete with other sellers.",
+      "imageurl": "/directory/images/Kk.jpg"
     },
     {
-      "name": "",
-      "Address": "",
-      "phone": "",
-      "website": "",
-      "imageurl": "https://chrmux.github.io/wdd230/directory/images/vista.png"
+      "name": "Studio Work Plus",
+      "Address": "2nd Floor Lucky Educational SUpply Bldg., 215 Penaranda St., Legazpi City,, Legazpi City, Albay, Philippines",
+      "phone": "+639175647688",
+      "website": "http://studioworkplus.com/",
+      "level": "Gold",
+      "message": "",
+      "imageurl": "/directory/images/Ll.png"
     }
 
   ]

@@ -21,6 +21,11 @@
 .chamber img {
 	height: 100%;
 }
+.container div {
+	margin: 5px;
+}
+
+
 
 
 /* Media Query for medium+ views */
@@ -45,5 +50,12 @@
 
 	#currentdate {
 		text-align: center;
+	}
+	.container div {
+		width: 100%;
+		margin: 5px;
+	}
+	#spotlight {
+		width: 100%;
 	}
 }

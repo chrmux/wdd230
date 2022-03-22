@@ -37,6 +37,12 @@ header .logo {
 	border-radius: 10px;
 }
 
+#banner {
+	background-color: #F0CF65;
+	margin: 5px;
+	text-align: center;
+}
+
 .container h1 {
 	font-size: 18px;
 	padding: 5px;
@@ -137,22 +143,22 @@ p {
 	font-size: 18px;
 }
 
-.a-side p {
+#spotlight p {
 	font-size: 14px;
-	font-weight: bold;
 	padding: 10px;
 }
 
-.a-side a {
-	font-size: 14px;
+#spotlight a {
+	font-size: 10px;
 	color: blue;
 }
 
-.a-side a:hover {
+#spotlight a:hover {
 	color: white;
 }
 
-.side {
+#spotlight {
+	width: 250px;
 	border: 1px solid gray;
 	padding: 5px;
 	margin: 10px 5px;
@@ -177,11 +183,24 @@ p {
 
 }
 
-.a-side {
+#spotlight {
 	grid-column: col 7 / span 2;
 	grid-row: 1 / span 44;
 	background-color: #28AFB0;
 	border-radius: 10px;
+	padding: 5px;
+}
+
+#spotlight img {
+	width: 110px;
+	height: 90px;
+}
+
+#spotlight div{
+	border: 1px solid gray;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 .weather {
