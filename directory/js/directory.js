@@ -4,7 +4,7 @@ function toggleMenu() {
     document.getElementById("head-date").classList.toggle("open");
 }
 
-const requestURL = 'wdd230/directory/js/data.json';
+const requestURL = '/wdd230/directory/js/data.json';
 const cards = document.querySelector('.cards');
 const companies = document.querySelector('.spotlight');
 
