@@ -1,11 +1,10 @@
-/* ------ MENU ------ */
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
     document.getElementById("head-date").classList.toggle("open");
 }
 
-const requestURL = 'https://chrmux.github.io/wdd230/directory/js/data.json';
+const requestURL = 'wdd230/directory/js/data.json';
 const cards = document.querySelector('.cards');
 const companies = document.querySelector('.spotlight');
 
@@ -32,11 +31,11 @@ function displayDirectory(directorys) {
     address.textContent = directorys.Address;
     phoneNumber.textContent = directorys.phone;
     website.textContent = directorys.website;
-    
+
     image.alt = 'comp-logo';
     website.href = directorys.website;
     card.className = 'card-items';
-    businessNm.className = 'Bname'; 
+    businessNm.className = 'Bname';
 
     card.appendChild(businessNm);
     card.appendChild(image);
@@ -51,17 +50,17 @@ function displayDirectory(directorys) {
 const act = 0;
 const ancho = innerWidth;
 
-    if(innerWidth > 560 && innerWidth < 1024){
-            document.querySelector(".cards").classList.toggle("change");
-            document.querySelector("#list").classList.toggle("change");
-            document.querySelector("#grid").classList.toggle("change");
-            act = 1;
-    }
+if (innerWidth > 560 && innerWidth < 1024) {
+    document.querySelector(".cards").classList.toggle("change");
+    document.querySelector("#list").classList.toggle("change");
+    document.querySelector("#grid").classList.toggle("change");
+    act = 1;
+}
 
 function toggleGrid() {
-    if(act === 0){
+    if (act === 0) {
 
-    }else{
+    } else {
         document.querySelector(".cards").classList.toggle("change");
         document.querySelector("#grid").classList.toggle("change");
         document.querySelector("#list").classList.toggle("change");
@@ -70,9 +69,9 @@ function toggleGrid() {
 }
 
 function toggleList() {
-    if(act === 1){
+    if (act === 1) {
 
-    }else{
+    } else {
         document.querySelector(".cards").classList.toggle("change");
         document.querySelector("#list").classList.toggle("change");
         document.querySelector("#grid").classList.toggle("change");
