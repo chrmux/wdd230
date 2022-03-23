@@ -41,7 +41,7 @@ function displayDirectory(directory) {
 }
 
 
-var galleryWidgetElements = document.querySelectorAll('.gallery');
+var galleryWidgetElements = document.querySelectorAll('.gallery-widget');
 
 for (var i = 0, controlViewElement; i < galleryWidgetElements.length; i++)
 {
