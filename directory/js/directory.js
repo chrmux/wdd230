@@ -1,6 +1,5 @@
 const requestURL = 'https://chrmux.github.io/wdd230/directory/js/data.json';
 const cards = document.querySelector('.cards');
-const companies = document.querySelector('.spotlight');
 
 fetch(requestURL)
     .then(function (response) {
@@ -12,73 +11,54 @@ fetch(requestURL)
         directorys.forEach(displayDirectory);
     });
 
-function displayDirectory(directorys) {
-    const card = document.createElement('section');
-    const Bname = document.createElement('h2');
+function displayDirectory(directory) {
+    const card = document.createElement('li');
+    const GBname = document.createElement('h2');
     const image = document.createElement('img');
-    const address = document.createElement('p');
-    const phone = document.createElement('p');
-    const website = document.createElement('a');
+    const Gaddress = document.createElement('p');
+    const Gphone = document.createElement('p');
+    const Gwebsite = document.createElement('a');
 
     
-    image.src = directorys.imageurl;
-    Bname.textContent = directorys.name;
-    address.textContent = directorys.Address;
-    phone.textContent = directorys.phone;
-    website.textContent = directorys.website;
+    image.src = directory.imageurl;
+    GBname.textContent = directory.name;
+    Gaddress.textContent = directory.Address;
+    Gphone.textContent = directory.phone;
+    Gwebsite.textContent = directory.website;
 
     image.alt = 'comp-logo';
-    website.href = directorys.website;
-    card.className = 'card-items';
-    Bname.className = 'Bname';
-
-    card.appendChild(Bname);
+    Gwebsite.href = directory.website;
+    card.className = 'list-vew';
+    GBname.className = 'GBname';
+    
     card.appendChild(image);
-    card.appendChild(address);
-    card.appendChild(phone);
-    card.appendChild(website);
+    card.appendChild(GBname);
+    card.appendChild(Gaddress);
+    card.appendChild(Gphone);
+    card.appendChild(Gwebsite);
 
     cards.appendChild(card);
 }
 
 
-const act = 0;
-const ancho = innerWidth;
+var galleryWidgetElements = document.querySelectorAll('.gallery');
 
-if (innerWidth > 560 && innerWidth < 1024) {
-    document.querySelector(".cards").classList.toggle("change");
-    document.querySelector("#list").classList.toggle("change");
-    document.querySelector("#grid").classList.toggle("change");
-    act = 1;
+for (var i = 0, controlViewElement; i < galleryWidgetElements.length; i++)
+{
+	controlViewElement = galleryWidgetElements[i].querySelector('.control-view');
+	controlViewElement.galleryWidgetElement = galleryWidgetElements[i];
+	
+	controlViewElement.addEventListener('click', function ()
+	{
+		toggleView(this.galleryWidgetElement);
+	});
 }
 
-function toggleGrid() {
-    if (act === 0) {
-
-    } else {
-        document.querySelector(".cards").classList.toggle("change");
-        document.querySelector("#grid").classList.toggle("change");
-        document.querySelector("#list").classList.toggle("change");
-        act = 0;
-    }
+function toggleView(galleryWidgetElement)
+{
+	galleryWidgetElement.classList.toggle('list-view');
 }
 
-function toggleList() {
-    if (act === 1) {
-
-    } else {
-        document.querySelector(".cards").classList.toggle("change");
-        document.querySelector("#list").classList.toggle("change");
-        document.querySelector("#grid").classList.toggle("change");
-        act = 1;
-    }
-}
-
-const grid = document.getElementById("grid");
-const list = document.getElementById("list");
-
-grid.onclick = toggleGrid;
-list.onclick = toggleList;
 
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
