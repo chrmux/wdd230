@@ -300,38 +300,4 @@ nav ul li {
 .site-footer .footer-sub .footer-social li:last-of-type {
   margin-right: 0
 }
-
-hr {
-  border: none
-}
-
-hr.spacing-sm {
-  height: 1em
-}
-
-@media screen and (min-width:1200px) {
-  hr.spacing-sm {
-    height: 2em
-  }
-}
-
-hr.spacing-med {
-  height: calc(1em + 1vmin)
-}
-
-@media screen and (min-width:1200px) {
-  hr.spacing-med {
-    height: calc(2em + 2vmin)
-  }
-}
-
-hr.spacing-lg {
-  height: calc(2em + 4vh)
-}
-
-@media screen and (min-width:1200px) {
-  hr.spacing-lg {
-    height: calc(2em + 9vh)
-  }
-}
 }

@@ -6,6 +6,9 @@
      margin-top: 2em;
      height: 230px;
      align-items: center;
+     -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+     -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+     box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
  }
  .headerRight {
      font-size: 1.8em;
@@ -115,6 +118,7 @@ footer {
 }
 .heroContainer a {
  width: 100%;
+ padding: 0.3em 0;
  font-size: 1.1em;
 }
 .heroContainer a:hover {

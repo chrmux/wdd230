@@ -33,6 +33,9 @@
     flex-flow: row wrap;
     justify-content: flex-end;
     border-bottom: 1px solid #0B0B0B;
+    -webkit-box-shadow: 0 6px 6px 0 rgb(53, 53, 53);
+    -moz-box-shadow: 0 6px 6px 0 rgb(53, 53, 53);
+        box-shadow: 0 6px 6px 0 rgb(53, 53, 53);
     }
     #primaryNav {
     padding-right: 5em;
@@ -111,7 +114,6 @@
     .homeMain {
     justify-content: space-around;
     }
-
     /* Temple Info Section */
     #mainWelcome > div:nth-child(1) {
     padding: 0 2em;
@@ -164,67 +166,6 @@
     * Temple Page
     *
     ***************/
-
-
-    /**************
-    *  
-    * Reservation Page
-    *
-    ***************/
-    /* Form Title */
-    #reservationTitle {
-    color: rgb(255,254,254);
-    align-self: center;
-    margin-right: 0.5em;
-    text-align: center;
-    }
-
-    /* Form Container */
-    .containerReservation {
-    display: flex;
-    max-width: 75%; 
-    flex-flow: row;
-    margin: 5em 5em 5em 15em;
-    }
-    .reservationForm {
-    margin: 2em;
-    }
-    .reservationFormWrapper {
-    margin: 2em;
-    }
-    /* Form Content */
-    #reservationInputTop {
-    flex-flow: column;
-    justify-content: space-evenly;
-    }
-    #upperUpper, #lowerUpper {
-    margin: 2em;
-    flex-flow: row;
-    justify-content: space-around;
-    }
-    #upperUpper > div, #lowerUpper > div {
-    justify-content: space-evenly;
-    margin-right: 1.5em;
-    }
-
-    .reservationForm .messageReservation {
-    flex-flow: column;
-    align-self: flex-start;
-    width: 300px;
-    }
-    .reservationForm .messageReservation textarea{
-    height: 200px;
-    width: 100%;
-    margin: 10px 0;
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid rgba(92,131,1, 0.8);
-    padding: 10px;
-    color: #1f1f1f;
-    }
-
-
-
 
 
     /**************
