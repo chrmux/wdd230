@@ -241,21 +241,6 @@ p {
   margin: 1.5em 0
 }
 
-body,
-html {
-  overflow: auto;
-  -webkit-overflow-scrolling: touch
-}
-
-@supports (display:flex) {
-
-  body,
-  html {
-    height: 100%;
-    width: 100%
-  }
-}
-
 @supports (display:flex) {
   body {
     display: -webkit-box;
