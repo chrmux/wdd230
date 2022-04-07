@@ -5,6 +5,7 @@ html {
 .green-contact-form {
   justify-content: center;
   justify-items: center;
+  align-items: center;
   width: 700px;
   margin: 0 auto;
   border-radius: 10px;
@@ -24,4 +25,8 @@ html {
 .title-form {
   max-width: 550px;
   margin-bottom: 5px;
+}
+
+.top-menu li img {
+  display: flex;
 }
