@@ -22,7 +22,7 @@ html {
   
 }
 
-@media screen and {
+@media screen and (max-width: 700){
 	.contact-form {
 		justify-content: center;
 		justify-items: center;
