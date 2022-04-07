@@ -3,6 +3,8 @@ html {
 }
 
 .green-contact-form {
+  justify-content: center;
+  justify-items: center;
   width: 700px;
   margin: 0 auto;
   border-radius: 10px;

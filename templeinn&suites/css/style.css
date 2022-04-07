@@ -2,12 +2,10 @@
 
 .top-menu ul{
   display: grid;
-  grid-template-columns: 1fr;
   padding: 20px;
 }
 
 .top-menu li:nth-child(1) {
-  grid-area: 1 / 1;
   font-size: 18px;
 
 }
@@ -17,7 +15,6 @@ span {
 }
 
 .top-menu li:nth-child(2) {
-  grid-area: 1 / 1;
   background-color: aqua;
   border-radius: 10px;
   border: 1px solid gray;
