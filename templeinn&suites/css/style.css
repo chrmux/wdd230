@@ -21,6 +21,8 @@ span {
   grid-area: 1 / 4;
   background-color: aqua;
   border-radius: 10px;
+  border: 1px solid gray;
+  padding: 30px 10px;
 }
 
 header img {
