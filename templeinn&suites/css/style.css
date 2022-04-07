@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.top-menu ul{
+.top-menu ul {
   display: grid;
   padding: 20px;
 }
@@ -95,7 +95,7 @@ nav ul li {
   height: 10vh;
 }
 
-#homeMain {
+.main-container {
   display: flex;
 }
 
@@ -104,80 +104,85 @@ nav ul li {
   margin-left: 1em;
 }
 
-.templeInfoContainer{
+.templeInfoContainer {
   background-color: #d1d5d8;
   padding: 2em;
   border-radius: 0.2em;
   display: flex;
 }
-.temple-img {
-  padding-top: 2em;
-  align-self: flex-start;
-  
-}
-.temple-img img{
+
+.temple-img img {
   width: 450px;
   height: 350px;
   border-radius: 0.2em;
 }
-.templeTextContainer{
+
+.templeTextContainer {
   margin-left: 2em;
 }
-.mainTempleInfoHome h3{
+
+.mainTempleInfoHome h3 {
   margin-bottom: -0.5em;
 }
+
 @media only screen and (min-width: 1025px) {
   .temple-img {
     flex-flow: row;
-    margin-top: 2em;    
-    }
-  #homeMain {
-    justify-content: space-around;
-    }
+    margin-top: 2em;
+  }
 
-.templeInfoContainer {
-  max-width: 50%;
-  height: 400px;
-  margin: 5em auto 1em auto;
-  background-color: #d1d5d8;
-  padding: 2em;
-  border-radius: 0.2em;
-  justify-content: space-around;
+  .main-container {
+    justify-content: space-around;
   }
+
+  .templeInfoContainer {
+    max-width: 50%;
+    height: 400px;
+    margin: 5em auto 1em auto;
+    background-color: #d1d5d8;
+    padding: 2em;
+    border-radius: 0.2em;
+    justify-content: space-around;
+  }
+
   .temple-img {
-  padding-top: 2em;
-  align-self: flex-start;
+    padding-top: 2em;
+    align-self: flex-start;
   }
-  .temple-img img{
-  border-radius: 0.2em;
-  -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+
+  .temple-img img {
+    border-radius: 0.2em;
+    -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+    -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+    box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
   }
-  .templeTextContainer{
-  margin-left: 1em;
+
+  .templeTextContainer {
+    margin-left: 1em;
   }
-  .mainTempleInfo h3{
-  margin-bottom: -0.6em;        
+
+  .mainTempleInfo h3 {
+    margin-bottom: -0.6em;
   }
 }
 
 @media only screen and (min-width: 415px) and (max-width: 1025px) {
-  #homeMain {
+  .main-container {
     flex-flow: column;
-}
-/* temple info section */
-.templeInfoContainer {
+  }
+
+  /* temple info section */
+  .templeInfoContainer {
     flex-flow: row wrap;
-    max-width: 50%;
     margin: 1em;
     justify-content: center;
-}
-.site-title {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-}
+  }
+
+  .site-title {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
 }
 
 /** small view **/
@@ -186,20 +191,23 @@ nav ul li {
   #homeMain {
     flex-flow: column;
   }
-/* temple info section */
-.templeInfoContainer {
-  flex-flow: column;
-  max-width: 90%;
-  margin: 2em 1em;
-  padding: 1em;
+
+  /* temple info section */
+  .templeInfoContainer {
+    flex-flow: column;
+    margin: 2em 1em;
+    padding: 1em;
+  }
+
+  .temple-img img {
+    width: 100%;
+  }
+
+  .site-title {
+    text-align: center;
+  }
 }
-.temple-img img {
-  width: 100%;
-}
-.site-title {
-  text-align: center;
-}
-}
+
 /* navigation end */
 
 
@@ -242,12 +250,6 @@ nav ul li {
     display: block;
   }
 
-
-.site-footer {
-  font-size: .875em;
-  border-top: 1px solid #ddd;
-  padding: 2em 0
-  bo
 }
 
 @media screen and (min-width:900px) {
@@ -293,11 +295,6 @@ nav ul li {
 }
 
 
-.site-footer .footer-sub .footer-social li svg:hover {
-  fill: #6bb9b8
-}
-
 .site-footer .footer-sub .footer-social li:last-of-type {
   margin-right: 0
-}
 }
