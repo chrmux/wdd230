@@ -94,6 +94,11 @@ nav ul li {
   display: none;
 }
 
+.showcase-area {
+  text-align: center;
+  height: 10vh;
+}
+
 #homeMain {
   display: flex;
 }
