@@ -1,0 +1,25 @@
+html {
+  font-size: 100%;
+}
+
+.green-contact-form {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #d1d5d8;
+  width: 575px;
+  padding: 2em;
+  border-radius: 0.2em;
+  color: #1f1f1f;
+  margin: 2em;
+  -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+  -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+  box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+
+}
+
+.title-form {
+  max-width: 550px;
+  margin-bottom: 5px;
+}

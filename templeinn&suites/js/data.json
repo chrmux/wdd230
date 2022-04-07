@@ -1,0 +1,47 @@
+{
+    "temple": [
+        {
+            "name": "Manila Philippines Temple",
+            "closures": [ 
+                {"date": "Saturday, 9 April 2022"}, 
+                {"date": "Monday, 1 August 2022 - Monday, 15 August 2022"}, 
+                {"date": "Saturday, 8 October 2022"}, 
+                {"date": "Saturday, 24 December 2022"}, 
+                {"date": "Saturday, 31 December 2022"}
+            ]
+        },
+        {
+            "name": "Cebu Philippines Temple",
+            "closures": [
+                {"date": "Monday, 15 August 2022 - Monday, 24 October 2022"},
+                {"date": "Saturday, 24 December 2022"},
+                {"date": "Saturday, 31 December 2022"}
+            ]
+        },
+        {
+            "name": "Columbia River WA Temple",
+            "closures": [
+                {"date": "Monday, 14 March 2022 - Monday, 20 June 2022"},
+                {"date": "Saturday, 1 October 2022"},
+                {"date": "Wednesday, 23 November 2022 - Thursday, 24 November 2022"},
+                {"date": "Saturday, 24 December 2022"},
+                {"date": "Saturday, 31 December 2022"}
+            ]
+        },
+        {
+            "name": "Portland Oregon Temple",
+            "closures": [
+                {"date":"Monday, 4 July 2022"},
+                {"date": "Monday, 18 July 2022 - Monday, 15 August 2022"},
+                {"date": "Saturday, 1 October 2022"},
+                {"date": "Wednesday, 23 November 2022 (Limited Operations)"},
+                {"date": "Thursday, 24 November 2022"},
+                {"date": "Saturday, 24 December 2022"},
+                {"date": "Sunday, 25 December 2022"},
+                {"date": "Saturday, 31 December 2022"}
+            ]
+        }
+    ]
+  }
+  
+ 
