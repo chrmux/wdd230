@@ -3,7 +3,7 @@ html {
 }
 
 .contact-form {
-  max-width: 768px;
+  	max-width: 768px;
 	display: block;
 	background: #000;
 	padding: 25px;
@@ -17,7 +17,16 @@ html {
   max-width: 550px;
   margin-bottom: 5px;
 }
-.top-menu {
-  display: inlineflex;
+.nav-bar {
+  display: inline-flex;
+  
+}
+
+@media screen and {
+	.contact-form {
+		justify-content: center;
+		justify-items: center;
+		align-items: center;
+	}
 }
 
