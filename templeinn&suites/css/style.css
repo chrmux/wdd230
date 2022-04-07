@@ -7,7 +7,7 @@
   padding: 20px;
 }
 
-.top-menu h1 {
+.top-menu:nth-child(1) {
   grid-area: 1 / 1;
   font-size: 18px;
 
