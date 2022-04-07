@@ -3,9 +3,9 @@ html {
 }
 
 .contact-form {
-  	max-width: 768px;
+  	max-width: 600px;
 	display: block;
-	background: #000;
+	background: #999;
 	padding: 25px;
 	margin: 40px auto;
 	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
@@ -18,7 +18,7 @@ html {
   margin-bottom: 5px;
 }
 .nav-bar {
-  display: inline-flex;
+  display: block;
   
 }
 
