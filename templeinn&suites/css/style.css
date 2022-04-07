@@ -2,8 +2,7 @@
 
 .top-menu ul{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 20px;
 }
 
@@ -18,11 +17,12 @@ span {
 }
 
 .top-menu li:nth-child(2) {
-  grid-area: 1 / 2;
+  grid-area: 1 / 1;
   background-color: aqua;
   border-radius: 10px;
   border: 1px solid gray;
   padding: 30px 10px;
+  text-align: center;
 }
 
 header img {
