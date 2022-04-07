@@ -56,14 +56,13 @@ nav {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-nav h1 {
+nav h2 {
   color: white;
   font-size: 32px;
 }
 
 nav a {
   color: black;
-  transition: var(--transition);
 }
 
 nav a:hover {

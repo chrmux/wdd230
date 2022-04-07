@@ -8,10 +8,6 @@
   margin: 0;
 }
 
-.html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -115,14 +111,6 @@ iframe {
   font-weight: bold;
 }
 
-.top-menu li:nth-child(2) {
-  display: flex;
-  font-size: 22px;
-  padding: 10px;
-  background-color: #000;
-  cursor: pointer;
-}
-
 .site-title {
   text-align: center;
   font-size: 28px;
@@ -134,28 +122,8 @@ iframe {
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {
-  .top-menu {
-    display: block;
-    
-  }
 
-  .top-menu li:nth-child(1) {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 5;
-  }
-
-  .top-menu .email {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 2;
-    align-items: center;
-
-  }
-
-  .top-menu .button {
-    width: 100%;
-  }
-
-  .main-container {
+  .container {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -237,32 +205,9 @@ iframe {
   }
 
   @media (orientation: landscape) and (max-height: 500px) {
-    .top-menu {
-      display: grid;
-      grid-template-columns: 1fr 1fr
-    }
-
     img {
       width: 100%;
     }
-  
-    .top-menu .phone {
-      grid-column: 1 / span 1;
-      grid-row: 1 / span 5;
-    }
-  
-    .top-menu .email {
-      grid-column: 1 / span 1;
-      grid-row: 3 / span 5;
-      align-items: center;
-  
-    }
-  
-    .top-menu:nth-child(3) {
-      grid-column: 2 / span 2;
-      grid-row: 4 / span 5;
-    }
-
     .showcase-area {
       height: 10vh;
     }
