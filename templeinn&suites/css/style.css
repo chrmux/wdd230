@@ -17,7 +17,7 @@ span {
 .top-menu li:nth-child(2) {
   background-color: aqua;
   border-radius: 10px;
-  border: 1px solid gray;
+  border: 1px solid #999;
   padding: 30px 10px;
   text-align: center;
 }

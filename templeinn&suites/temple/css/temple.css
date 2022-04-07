@@ -85,7 +85,7 @@ iframe {
   font-size: 22px;
   padding: 10px;
   background-color: aqua;
-  border-radius: 1px solid gray;
+  border-radius: 1px solid #999;
   cursor: pointer;
 }
 
@@ -103,8 +103,8 @@ iframe {
   margin: 1em;
   padding-top: 0.5em;
   padding: 1em;
-  background-color: #4f524a;
-  color: #FFF;
+  background-color: #999;
+  color: white;
   border-radius: 2%;
 }
 
@@ -160,7 +160,7 @@ iframe {
 }
 
 .item-list a * {
-  color: #1f1f1f;
+  color: #000;
   -webkit-transition: color .15s ease;
   transition: color .15s ease
 }
@@ -177,7 +177,7 @@ iframe {
 }
 
 .item-list a.button:hover {
-  color: #1f1f1f;
+  color: #000;
   text-decoration: none
 }
 
