@@ -4,14 +4,6 @@ html {
   -webkit-overflow-scrolling: touch
 }
 
-.top-menu button {
-  display: flex;
-  font-size: 22px;
-  padding: 10px;
-  background-color: aqua;
-  cursor: pointer;
-}
-
 .showcase-area {
   text-align: center;
   height: 20vh;
@@ -70,13 +62,6 @@ ul {
 }
 a {
   text-decoration: none;
-}.bside {
-  grid-column: 7;
-  grid-row: 1 / span 12;
-  background-color: lightgray;
-  border-radius: 10px;
-  padding: 10px;
-  height: 850px;
 }
 
 #map {
@@ -95,25 +80,13 @@ iframe {
 
 }
 
-.bside li {
-  text-align: left;
-  list-style: none;
-  padding: 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.top-menu button {
+.top-menu li:nth-child(2) {
   display: flex;
   font-size: 22px;
   padding: 10px;
   background-color: aqua;
+  border-radius: 1px solid gray;
   cursor: pointer;
-}
-
-.showcase-area {
-  text-align: center;
-  height: 20vh;
 }
 
 .weatherSumBox {
@@ -172,56 +145,11 @@ iframe {
   height: auto
 }
 
-figure {
-  margin: 0 0 2em
-}
-
-figure img {
-  margin-bottom: .25em
-}
-
-figure figcaption {
-  font-size: .85em
-}
-
-.block-link {
-  display: block;
-  text-decoration: none
-}
-
-.block-link:hover {
-  text-decoration: none;
-  color: #1f1f1f
-}
-
 [hidden=true] {
   display: none !important
 }
 
-.show-desktop {
-  display: none
-}
-
 @media screen and (min-width:900px) {
-  .show-desktop {
-    display: inline-block
-  }
-}
-
-.hide-desktop {
-  display: block
-}
-
-@media screen and (min-width:900px) {
-  .hide-desktop {
-    display: none
-  }
-}
-
-.rounded,
-.rounded img {
-  border-radius: 50em
-}
 
 .item-list p {
   margin: 1em 0 1.25em
@@ -485,4 +413,5 @@ figure figcaption {
 .alert .button--close img {
   display: block;
   margin-left: auto
+}
 }
