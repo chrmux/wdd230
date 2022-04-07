@@ -1,7 +1,7 @@
 
 
 var myRequest = new XMLHttpRequest();
-myRequest.open('GET', '/templeinn&suites/js/data.json');
+myRequest.open('GET', 'https://chrmux.github.io/wdd230/templeinn&suites/js/data.json');
 
 
 
