@@ -3,22 +3,13 @@ html {
 }
 
 .green-contact-form {
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  width: 700px;
-  margin: 0 auto;
-  border-radius: 10px;
-  padding: 5px;
-  background-color: #d1d5d8;
-  width: 575px;
-  padding: 2em;
-  border-radius: 0.2em;
-  color: #1f1f1f;
-  margin: 2em;
-  -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+  max-width: 768px;
+	display: block;
+	background: #162E3F;
+	padding: 25px;
+	margin: 40px auto;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	color: #fff;
 
 }
 
