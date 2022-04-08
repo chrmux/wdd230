@@ -3,7 +3,7 @@
     .pageTitle {
         font-size: 2.5em;
     }
-    .homeMain {
+    .templeInfoContainer {
         flex-flow: column;
     }
     .templeInfoContainer {
@@ -11,5 +11,17 @@
         max-width: 90%;
         margin: 1em;
         justify-content: center;
+    }
+    .templeTop {
+        margin-top: 3em;
+    }
+    .templeBottom {
+        margin-bottom: 3em;
+    }
+    .TempImg, .TempImg > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
     }
 }

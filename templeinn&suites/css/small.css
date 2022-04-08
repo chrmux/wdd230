@@ -12,4 +12,10 @@
     margin: 2em 1em;
     padding: 1em;
 }
+.templeTop {
+    margin-top: 3em;
+}
+.templeBottom {
+    margin-bottom: 3em;
+}
 }

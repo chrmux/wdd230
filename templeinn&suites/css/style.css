@@ -134,6 +134,24 @@ nav ul li {
   margin-bottom: -0.5em;
 }
 
+.templeTitleBox {
+  width: 300px;
+  margin: 3em 2em 0 0;
+  padding: 15px;
+  background-color: #1f1f1f;
+  color: #FFF;
+  border-radius: 2%;
+}
+.templeInfoContainerBox {
+  max-width: 300px;
+  margin: 1em;
+  padding-top: 0.5em;
+  padding: 1em;
+  background-color: #4f524a;
+  color: #FFF;
+  border-radius: 2%;
+}
+
 /* responsive */
 @media screen and (max-width: 700px) {
 
