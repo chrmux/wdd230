@@ -99,15 +99,6 @@ nav ul li {
 
 /* navigation end */
 /* main */
-.pageTitle {
-  text-align: center;
-  padding-top: 0.2em;
-  margin-top: 1em;
-  font-style: italic;
-  -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-      -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-              box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-}
 
 .templeInfoContainer {
   display: flex;
