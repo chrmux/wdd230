@@ -135,12 +135,12 @@ iframe {
 
   .chamber {
     grid-column: 1 / 5;
-    grid-row: 6 / auto;
+    grid-row: 7 
   }
 
   .bside {
     grid-column: 1 / 5;
-    grid-row: 9 / auto;
+    grid-row: 10
   }
 
   #map iframe {
@@ -188,12 +188,12 @@ iframe {
   
     .chamber {
       grid-column: 1 / 5;
-      grid-row: 1 / auto;
+      grid-row: 6 / auto;
     }
   
     .bside {
       grid-column: 1 / 5;
-      grid-row: 5 / auto;
+      grid-row: 10 / auto;
     }
   
     #map iframe {
@@ -215,7 +215,7 @@ iframe {
   
     .weather {
       grid-column: 3 / 5;
-      grid-row: 7 / 6;
+      grid-row: 10 / 6;
     }
   
     .chamber {
@@ -225,7 +225,7 @@ iframe {
   
     .bside {
       grid-column: 1 / 5;
-      grid-row: 5 / 6;
+      grid-row: 6 / 6;
     }
   
     #map iframe {
