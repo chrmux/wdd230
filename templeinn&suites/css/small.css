@@ -1,0 +1,15 @@
+@media only screen and (max-width: 415px) {
+
+    .pageTitle {
+        font-size: 2em;
+    }
+    .homeMain {
+        flex-flow: column;
+    }
+    .templeInfoContainer {
+    flex-flow: column;
+    max-width: 90%;
+    margin: 2em 1em;
+    padding: 1em;
+}
+}
