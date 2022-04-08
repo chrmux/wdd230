@@ -3,7 +3,7 @@
     .pageTitle {
         font-size: 2.5em;
     }
-    .templeInfoContainer {
+    .container {
         flex-flow: column;
     }
     .templeInfoContainer {
