@@ -104,10 +104,6 @@
     * Home Page
     *
     ***************/
-    #mainWelcome {
-    flex-flow: row;
-    margin-top: 5em;    
-    }
     #homeContent {
     width: 75%;
     }
