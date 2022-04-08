@@ -111,7 +111,7 @@
     #homeContent {
     width: 75%;
     }
-    .homeMain {
+    .templeInfoContainer {
     justify-content: space-around;
     }
     /* Temple Info Section */
@@ -126,11 +126,11 @@
     border-radius: 0.2em;
     justify-content: space-around;
     }
-    .indTempImg {
+    .TempImg {
     padding-top: 2em;
     align-self: flex-start;
     }
-    .indTempImg img{
+    .TempImg img{
     width: 100%;
     border-radius: 0.2em;
     }
