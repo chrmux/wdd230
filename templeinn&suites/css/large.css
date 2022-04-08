@@ -236,11 +236,6 @@ iframe {
 
 @media only screen and (min-width: 1025px) {
 
-  /* Page Title */
-  .pageTitle {
-  font-size: 3em;
-  }
-
   #map iframe {
   width: 400px;
   height: 300px;
@@ -257,7 +252,7 @@ iframe {
   #homeContent {
   width: 75%;
   }
-  .container {
+  .templeInfoContainer {
   justify-content: space-around;
   }
  

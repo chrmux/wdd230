@@ -1,9 +1,7 @@
 @media only screen and (max-width: 415px) {
 
-    .pageTitle {
-        font-size: 2em;
-    }
-    .container {
+
+    .templeInfoContainer {
         flex-flow: column;
     }
     .templeInfoContainer {
