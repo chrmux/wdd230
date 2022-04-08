@@ -109,7 +109,7 @@ nav ul li {
               box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
 }
 
-.homeMain {
+.templeInfoContainer {
   display: flex;
 }
 
@@ -150,6 +150,10 @@ nav ul li {
   background-color: #4f524a;
   color: #FFF;
   border-radius: 2%;
+}
+
+.main-container {
+  width: 90%;
 }
 
 /* responsive */
