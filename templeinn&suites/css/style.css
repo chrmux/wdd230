@@ -97,119 +97,6 @@ nav ul li {
   height: 10vh;
 }
 
-.container {
-  display: flex;
-}
-
-.site-title {
-  display: flex;
-  margin-left: 1em;
-}
-
-.templeInfoContainer {
-  background-color: #d1d5d8;
-  padding: 2em;
-  border-radius: 0.2em;
-  display: flex;
-}
-
-.temple-img img {
-  width: 450px;
-  height: 350px;
-  border-radius: 0.2em;
-}
-
-.templeTextContainer {
-  margin-left: 2em;
-}
-
-.mainTempleInfoHome h3 {
-  margin-bottom: -0.5em;
-}
-
-@media only screen and (min-width: 1025px) {
-  .temple-img {
-    flex-flow: row;
-    margin-top: 2em;
-  }
-
-  .container {
-    justify-content: space-around;
-  }
-
-  .templeInfoContainer {
-    max-width: 50%;
-    height: 400px;
-    margin: 5em auto 1em auto;
-    background-color: #d1d5d8;
-    padding: 2em;
-    border-radius: 0.2em;
-    justify-content: space-around;
-  }
-
-  .temple-img {
-    padding-top: 2em;
-    align-self: flex-start;
-  }
-
-  .temple-img img {
-    border-radius: 0.2em;
-    -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  }
-
-  .templeTextContainer {
-    margin-left: 1em;
-  }
-
-  .mainTempleInfo h3 {
-    margin-bottom: -0.6em;
-  }
-}
-
-@media only screen and (min-width: 415px) and (max-width: 1025px) {
-  .container {
-    flex-flow: column;
-  }
-
-  /* temple info section */
-  .templeInfoContainer {
-    flex-flow: row wrap;
-    margin: 1em;
-    justify-content: center;
-  }
-
-  .site-title {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-  }
-}
-
-/** small view **/
-
-@media only screen and (max-width: 415px) {
-  .container {
-    flex-flow: column;
-  }
-
-  /* temple info section */
-  .templeInfoContainer {
-    flex-flow: column;
-    margin: 2em 1em;
-    padding: 1em;
-  }
-
-  .temple-img img {
-    width: 100%;
-  }
-
-  .site-title {
-    text-align: center;
-  }
-}
-
 /* navigation end */
 
 
@@ -252,4 +139,70 @@ nav ul li {
     display: block;
   }
 
+}
+
+.site-footer {
+  font-size: .875em;
+  border-top: 1px solid #ddd;
+  padding: 2em 0
+}
+
+@media screen and (min-width:900px) {
+  .site-footer ul li {
+    display: inline-block;
+    margin-right: .5em
+  }
+}
+
+.site-footer .footer-sub {
+  max-width: none
+}
+
+@media screen and (min-width:900px) {
+  .site-footer .footer-sub {
+    padding: 0 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+  }
+
+  .site-footer .footer-sub ul {
+    margin-top: .25em
+  }
+
+  .site-footer .footer-sub ul li {
+    display: inline-block
+  }
+}
+
+.site-footer .footer-sub .footer-social {
+  margin: 0
+}
+
+@media screen and (max-width:900px) {
+  .site-footer .footer-sub .footer-social {
+    margin: 1em 0
+  }
+}
+
+.site-footer .footer-sub .footer-social li {
+  display: inline-block;
+  margin-right: .5em
+}
+
+.site-footer .footer-sub .footer-social li svg {
+  fill: #1f1f1f;
+  -webkit-transition: fill .15s ease;
+  transition: fill .15s ease
+}
+
+.site-footer .footer-sub .footer-social li svg:hover {
+  fill: #6bb9b8
+}
+
+.site-footer .footer-sub .footer-social li:last-of-type {
+  margin-right: 0
 }
